@@ -1,0 +1,6 @@
+set(PAHO_MQTT_C_FOUND TRUE)
+set(PAHO_MQTT_C_INCLUDE_DIRS "${paho-mqtt-c_SOURCE_DIR}/src")
+set(PAHO_MQTT_C_LIBRARIES paho-mqtt3a-static)
+if(NOT TARGET PahoMqttC::PahoMqttC)
+    add_library(PahoMqttC::PahoMqttC ALIAS paho-mqtt3a-static)
+endif()

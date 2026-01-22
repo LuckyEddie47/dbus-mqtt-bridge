@@ -1,0 +1,16 @@
+[Unit]
+Description=DBus-MQTT Bridge Service
+After=network.target mosquitto.service
+Wants=mosquitto.service
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/dbus-mqtt-bridge /etc/dbus-mqtt-bridge/config.yaml
+Restart=on-failure
+User=root
+# Ensure we have access to the system bus
+CapabilityBoundingSet=CAP_SETGID CAP_SETUID
+AmbientCapabilities=CAP_SETGID CAP_SETUID
+
+[Install]
+WantedBy=multi-user.target

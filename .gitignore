@@ -1,0 +1,23 @@
+# Build directory
+build/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependencies (if any local)
+_deps/
+
+# Binary files (if any in root)
+dbus-mqtt-bridge
+dbus-simulator
+mqtt-simulator
+test_*
+
+# Logs
+*.log
+
+# System files
+.DS_Store
