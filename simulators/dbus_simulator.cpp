@@ -19,6 +19,7 @@ int main() {
     });
 
     simulator->registerSignal("notify").onInterface(interfaceName).withParameters<std::string, int32_t>();
+    simulator->registerSignal("complex_signal").onInterface(interfaceName).withParameters<std::vector<std::string>, std::map<std::string, int32_t>>();
 
     simulator->finishRegistration();
 
@@ -35,6 +36,11 @@ int main() {
         std::string msg = "Periodic notification " + std::to_string(++count);
         std::cout << "[DBus Sim] Emitting signal 'notify' with: " << msg << ", " << count << std::endl;
         simulator->emitSignal("notify").onInterface(interfaceName).withArguments(msg, count);
+
+        std::vector<std::string> arr = {"apple", "banana", "cherry"};
+        std::map<std::string, int32_t> dict = {{"x", 10}, {"y", 20}};
+        std::cout << "[DBus Sim] Emitting 'complex_signal'" << std::endl;
+        simulator->emitSignal("complex_signal").onInterface(interfaceName).withArguments(arr, dict);
     }
 
     return 0;

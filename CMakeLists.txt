@@ -87,11 +87,11 @@ target_link_libraries(${PROJECT_NAME}
 # Simulators
 add_executable(dbus-simulator simulators/dbus_simulator.cpp src/Config.cpp)
 target_include_directories(dbus-simulator PRIVATE include)
-target_link_libraries(dbus-simulator PRIVATE sdbus-c++ yaml-cpp)
+target_link_libraries(dbus-simulator PRIVATE sdbus-c++ yaml-cpp nlohmann_json::nlohmann_json)
 
 add_executable(mqtt-simulator simulators/mqtt_simulator.cpp src/Config.cpp)
 target_include_directories(mqtt-simulator PRIVATE include)
-target_link_libraries(mqtt-simulator PRIVATE paho-mqttpp3-static yaml-cpp)
+target_link_libraries(mqtt-simulator PRIVATE paho-mqttpp3-static yaml-cpp nlohmann_json::nlohmann_json)
 
 # Unit Tests
 add_executable(test_config tests/test_config.cpp src/Config.cpp)
@@ -101,10 +101,10 @@ add_test(NAME ConfigTest COMMAND test_config)
 
 add_executable(test_dbus tests/test_dbus.cpp src/DbusManager.cpp src/Config.cpp)
 target_include_directories(test_dbus PRIVATE include)
-target_link_libraries(test_dbus PRIVATE GTest::gtest_main sdbus-c++ yaml-cpp)
+target_link_libraries(test_dbus PRIVATE GTest::gtest_main sdbus-c++ yaml-cpp nlohmann_json::nlohmann_json)
 add_test(NAME DbusTest COMMAND test_dbus)
 
 add_executable(test_mqtt tests/test_mqtt.cpp src/MqttManager.cpp src/Config.cpp)
 target_include_directories(test_mqtt PRIVATE include)
-target_link_libraries(test_mqtt PRIVATE GTest::gtest_main paho-mqttpp3-static yaml-cpp)
+target_link_libraries(test_mqtt PRIVATE GTest::gtest_main paho-mqttpp3-static yaml-cpp nlohmann_json::nlohmann_json)
 add_test(NAME MqttTest COMMAND test_mqtt)

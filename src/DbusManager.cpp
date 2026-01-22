@@ -1,17 +1,14 @@
 #include "DbusManager.hpp"
+#include "TypeUtils.hpp"
 #include <iostream>
 
 DbusManager::DbusManager(const std::vector<DbusToMqttMapping>& signalMappings, const std::string& busType)
     : mappings_(signalMappings) {
-    if (busType == "system") {
-        connection_ = sdbus::createSystemBusConnection();
-    } else {
-        connection_ = sdbus::createSessionBusConnection();
-    }
+    connection_ = (busType == "system") ? sdbus::createSystemBusConnection() : sdbus::createSessionBusConnection();
 }
 
 void DbusManager::setSignalCallback(SignalCallback cb) {
-    signalCallback_ = cb;
+    signalCallback_ = std::move(cb);
 }
 
 void DbusManager::start() {
@@ -19,55 +16,7 @@ void DbusManager::start() {
         auto proxy = sdbus::createProxy(*connection_, mapping.service, mapping.path);
         
         proxy->registerSignalHandler(mapping.interface, mapping.signal, [this, mapping](sdbus::Signal& signal) {
-            std::vector<sdbus::Variant> args;
-            
-            while (true) {
-                std::string type, contents;
-                signal.peekType(type, contents);
-                if (type.empty()) break;
-                
-                try {
-                    if (type == "s") {
-                        std::string v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "i") {
-                        int32_t v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "u") {
-                        uint32_t v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "x") {
-                        int64_t v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "t") {
-                        uint64_t v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "b") {
-                        bool v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "d") {
-                        double v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "y") {
-                        uint8_t v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "n") {
-                        int16_t v; signal >> v;
-                        args.emplace_back(v);
-                    } else if (type == "q") {
-                        uint16_t v; signal >> v;
-                        args.emplace_back(v);
-                    } else {
-                        std::cout << "[DbusManager] Skipping unknown type: " << type << std::endl;
-                        // We need to skip this value somehow or break
-                        break; 
-                    }
-                } catch (const std::exception& e) {
-                    std::cerr << "[DbusManager] Error reading signal arg: " << e.what() << std::endl;
-                    break;
-                }
-            }
-
+            auto args = TypeUtils::unpackSignal(signal);
             if (signalCallback_) {
                 signalCallback_(mapping, args);
             }
@@ -96,7 +45,7 @@ sdbus::Variant DbusManager::callMethod(const std::string& service,
         else if (arg.containsValueOfType<double>()) methodCall << arg.get<double>();
         else if (arg.containsValueOfType<int64_t>()) methodCall << arg.get<int64_t>();
         else if (arg.containsValueOfType<uint64_t>()) methodCall << arg.get<uint64_t>();
-        else methodCall << arg; // Fallback to sending as Variant
+        else methodCall << arg;
     }
     
     auto reply = proxy->callMethod(methodCall);
@@ -104,9 +53,7 @@ sdbus::Variant DbusManager::callMethod(const std::string& service,
     if (reply.isValid()) {
         try {
             reply >> result;
-        } catch (...) {
-            // Result might be empty or multiple values, for now just return empty variant
-        }
+        } catch (...) {}
     }
     return result;
 }

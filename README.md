@@ -41,6 +41,6 @@ Configure the bridge using a YAML file (see `build/config.yaml` for an example):
 
 ## Limitations
 
-- **Complex Types**: Currently supports basic DBus types (strings, integers, booleans, doubles). Nested containers (arrays of arrays, dictionaries) are not yet fully implemented in the JSON transformation layer.
+- **Complex Types**: Supports basic DBus types (strings, integers, booleans, doubles, etc.) and common nested containers (arrays and dictionaries). Signals and methods can now handle complex structures like `as`, `ai`, `a{ss}`, and `a{sv}`.
 - **JSON Format**: DBus signals are serialized as JSON arrays of their arguments. MQTT-to-DBus commands expect a JSON array matching the method's signature.
 - **Bus Type**: Defaults to the Session Bus for development; can be configured to use the System Bus in `config.yaml`.
