@@ -1,58 +1,76 @@
-.TH DBUS-MQTT-BRIDGE 1 "January 2026" "dbus-mqtt-bridge" "User Commands"
+# dbus-mqtt-bridge(1)
 
-.SH NAME
-dbus-mqtt-bridge \- Bi-directional bridge between DBus and MQTT
+Copyright (C) 2026 Ed Lee
+License: GPL-3.0-or-later
+Author: Ed Lee
 
-.SH SYNOPSIS
-.B dbus-mqtt-bridge
-\fIconfig.yaml\fR
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-.SH DESCRIPTION
-\fBdbus-mqtt-bridge\fR is a high-performance Linux system service that bridges DBus (Linux IPC) and MQTT (IoT messaging) in both directions. It enables integration between local Linux services and remote IoT/cloud systems using a YAML-driven configuration.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-.SH BUILDING
-.SS Prerequisites
-.RS
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+## NAME
+
+dbus-mqtt-bridge - Bi-directional bridge between DBus and MQTT
+
+## SYNOPSIS
+
+dbus-mqtt-bridge [config.yaml]
+
+## DESCRIPTION
+
+dbus-mqtt-bridge is a high-performance Linux system service that bridges DBus (Linux IPC) and MQTT (IoT messaging) in both directions. It enables integration between local Linux services and remote IoT/cloud systems using a YAML-driven configuration.
+
+## BUILDING
+
+### Prerequisites
 - C++20 compiler (GCC 10+ recommended)
 - CMake 3.20+
 - libsystemd-dev (for DBus via sdbus-c++)
 - pkg-config
-.RE
 
-.SS Build Steps
-.nf
+### Build Steps
+```
 git clone <repo-url>
 cd dbus-mqtt-bridge
 mkdir build && cd build
 cmake ..
 make -j$(nproc)
-.fi
+```
 
-.SH INSTALLATION
-.SS Manual Installation
-.RS
-- The main binary is at \fBbuild/dbus-mqtt-bridge\fR.
-- Optionally, copy it to /usr/local/bin:
-.nf
-sudo cp dbus-mqtt-bridge /usr/local/bin/
-.fi
+## INSTALLATION
+
+### Manual Installation
+- The main binary is at `build/dbus-mqtt-bridge`.
+- Optionally, copy it to `/usr/local/bin`:
+  ```
+  sudo cp dbus-mqtt-bridge /usr/local/bin/
+  ```
 - For systemd integration:
-.nf
-sudo cp ../dbus-mqtt-bridge.service /etc/systemd/system/
-sudo systemctl daemon-reload
-sudo systemctl enable dbus-mqtt-bridge
-sudo systemctl start dbus-mqtt-bridge
-.fi
-.RE
+  ```
+  sudo cp ../dbus-mqtt-bridge.service /etc/systemd/system/
+  sudo systemctl daemon-reload
+  sudo systemctl enable dbus-mqtt-bridge
+  sudo systemctl start dbus-mqtt-bridge
+  ```
 
-.SH CONFIGURATION
-All runtime options and bus/topic mappings are defined in a YAML file. See \fBbuild/config.yaml\fR for a full example. Pass the config file as an argument:
-.nf
+## CONFIGURATION
+
+All runtime options and bus/topic mappings are defined in a YAML file. See `build/config.yaml` for a full example. Pass the config file as an argument:
+```
 dbus-mqtt-bridge path/to/config.yaml
-.fi
+```
 
-.SS Example config.yaml
-.nf
+### Example config.yaml
+```yaml
 mqtt:
   host: "localhost"
   port: 1883
@@ -75,29 +93,26 @@ mappings:
       path: "/com/example/Object"
       interface: "com.example.Interface"
       method: "ExampleMethod"
-.fi
+```
 
-.SH TESTING
-.RS
-- Use \fBbuild/dbus-simulator\fR and \fBbuild/mqtt-simulator\fR for local integration testing.
+## TESTING
+
+- Use `build/dbus-simulator` and `build/mqtt-simulator` for local integration testing.
 - Run all unit tests:
-.nf
-cd build
-ctest
-.fi
-.RE
+  ```
+  cd build
+  ctest
+  ```
 
-.SH TROUBLESHOOTING
-.RS
+## TROUBLESHOOTING
+
 - Check logs for errors if the bridge fails to start.
 - Ensure DBus and MQTT endpoints are reachable and credentials are correct.
 - Validate your YAML config with a linter if startup fails due to configuration errors.
-.RE
 
-.SH FILES
-.RS
-- Main source: \fBsrc/Bridge.cpp\fR, \fBsrc/DbusManager.cpp\fR, \fBsrc/MqttManager.cpp\fR, \fBsrc/Config.cpp\fR
-- Example config: \fBbuild/config.yaml\fR
-- Service file: \fBdbus-mqtt-bridge.service\fR
-- Simulators: \fBbuild/dbus-simulator\fR, \fBbuild/mqtt-simulator\fR
-.RE
+## FILES
+
+- Main source: `src/Bridge.cpp`, `src/DbusManager.cpp`, `src/MqttManager.cpp`, `src/Config.cpp`
+- Example config: `build/config.yaml`
+- Service file: `dbus-mqtt-bridge.service`
+- Simulators: `build/dbus-simulator`, `build/mqtt-simulator`
