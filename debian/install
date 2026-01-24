@@ -1,0 +1,3 @@
+# Install example files to doc directory
+# These will be handled by override_dh_installdocs in debian/rules
+# keeping this file for additional install rules if needed later

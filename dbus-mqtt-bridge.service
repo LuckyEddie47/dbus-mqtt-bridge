@@ -1,16 +1,58 @@
 [Unit]
 Description=DBus-MQTT Bridge Service
-After=network.target mosquitto.service
+After=network.target mosquitto.service dbus.service
 Wants=mosquitto.service
+Documentation=man:dbus-mqtt-bridge(1)
 
 [Service]
 Type=simple
+User=dbus-mqtt-bridge
+Group=dbus-mqtt-bridge
+
+# Config file location (can be overridden with systemctl edit)
 ExecStart=/usr/bin/dbus-mqtt-bridge /etc/dbus-mqtt-bridge/config.yaml
+
 Restart=on-failure
-User=root
-# Ensure we have access to the system bus
-CapabilityBoundingSet=CAP_SETGID CAP_SETUID
-AmbientCapabilities=CAP_SETGID CAP_SETUID
+RestartSec=5s
+
+# Security Hardening
+NoNewPrivileges=true
+PrivateTmp=true
+
+# Filesystem protection
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/log/dbus-mqtt-bridge
+ReadOnlyPaths=/etc/dbus-mqtt-bridge
+
+# Kernel protection
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+
+# Process restrictions
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+RestrictNamespaces=true
+RestrictRealtime=true
+RestrictSUIDSGID=true
+LockPersonality=true
+RemoveIPC=true
+PrivateMounts=true
+
+# System call filtering
+SystemCallFilter=@system-service
+SystemCallFilter=~@privileged @resources
+SystemCallErrorNumber=EPERM
+
+# Capability restrictions (minimal set needed for D-Bus)
+CapabilityBoundingSet=
+AmbientCapabilities=
+
+# Resource limits
+LimitNOFILE=1024
+MemoryMax=256M
+TasksMax=10
 
 [Install]
 WantedBy=multi-user.target

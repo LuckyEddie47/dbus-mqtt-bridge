@@ -1,0 +1,5847 @@
+method return time=1769287614.566655 sender=:1.7 -> destination=:1.6409314 serial=255047 reply_serial=2
+   array [
+      struct {
+         string "tpm-udev.path"
+         string "Handle dynamically added tpm devices"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/tpm_2dudev_2epath"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "time-sync.target"
+         string "System Time Synchronized"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/time_2dsync_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dm-event.socket"
+         string "Device-mapper event daemon FIFOs"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dm_2devent_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sound.target"
+         string "Sound Card"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sound_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "connman.service"
+         string "connman.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/connman_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.19-tty-ttyS19.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.19/tty/ttyS19"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e19_2dtty_2dttyS19_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-fsckd.socket"
+         string "fsck to fsckd communication Socket"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dfsckd_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-kernel-debug-tracing.mount"
+         string "/sys/kernel/debug/tracing"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dkernel_2ddebug_2dtracing_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "lm-sensors.service"
+         string "Initialize hardware monitoring sensors"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/lm_2dsensors_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-pcrphase.service"
+         string "TPM2 PCR Barrier (User)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dpcrphase_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "first-boot-complete.target"
+         string "First Boot Complete"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/first_2dboot_2dcomplete_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-fsckd.service"
+         string "File System Check Daemon to report status"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dfsckd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpath-pci\x2d0000:03:00.0\x2dnvme\x2d1\x2dpart1.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpath_2dpci_5cx2d0000_3a03_3a00_2e0_5cx2dnvme_5cx2d1_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "e2scrub_reap.service"
+         string "Remove Stale Online ext4 Metadata Check Snapshots"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/e2scrub_5freap_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-journal-catalog-update.service"
+         string "Rebuild Journal Catalog"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2djournal_2dcatalog_2dupdate_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "umount.target"
+         string "Unmount All Filesystems"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/umount_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "iscsid.service"
+         string "iscsid.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/iscsid_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "console-screen.service"
+         string "console-screen.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/console_2dscreen_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "polkit.service"
+         string "Authorization Manager"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/polkit_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2duuid-008b1d34\x2d3269\x2d4d7d\x2dbead\x2d8742da32b688.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2duuid_2d008b1d34_5cx2d3269_5cx2d4d7d_5cx2dbead_5cx2d8742da32b688_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-nvme0n1.device"
+         string "CT2000T500SSD8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dnvme0n1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-zed.service"
+         string "ZFS Event Daemon (zed)"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dzed_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-repart.service"
+         string "Repartition Root Disk"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2drepart_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-udevd.service"
+         string "Rule-based Manager for Device Events and Files"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dudevd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-pcrextend.socket"
+         string "TPM2 PCR Extension (Varlink)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dpcrextend_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.5-tty-ttyS5.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.5/tty/ttyS5"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e5_2dtty_2dttyS5_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpartuuid-d11e7f3c\x2dd6b5\x2d431d\x2d860b\x2dcc2175eca5cd.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpartuuid_2dd11e7f3c_5cx2dd6b5_5cx2d431d_5cx2d860b_5cx2dcc2175eca5cd_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-9\x2dpart1.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d9_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-switch-root.service"
+         string "Switch Root"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2dswitch_2droot_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "cups-browsed.service"
+         string "Make remote CUPS printers available locally"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/cups_2dbrowsed_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "gpu-manager.service"
+         string "Detect the available GPUs and deal with any system changes"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/gpu_2dmanager_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "proc-sys-fs-binfmt_misc.mount"
+         string "Arbitrary Executable File Formats File System"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/proc_2dsys_2dfs_2dbinfmt_5fmisc_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.10-tty-ttyS10.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.10/tty/ttyS10"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e10_2dtty_2dttyS10_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "basic.target"
+         string "Basic System"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/basic_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-hybrid-sleep.service"
+         string "System Hybrid Suspend+Hibernate"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dhybrid_2dsleep_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "modprobe@fuse.service"
+         string "Load Kernel Module fuse"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/modprobe_40fuse_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "blockdev@dev-disk-by\x2duuid-008b1d34\x2d3269\x2d4d7d\x2dbead\x2d8742da32b688.target"
+         string "Block Device Preparation for /dev/disk/by-uuid/008b1d34-3269-4d7d-bead-8742da32b688"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/blockdev_40dev_2ddisk_2dby_5cx2duuid_2d008b1d34_5cx2d3269_5cx2d4d7d_5cx2dbead_5cx2d8742da32b688_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS13.device"
+         string "/dev/ttyS13"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.13-tty-ttyS13.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS13_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "grub-common.service"
+         string "Record successful boot for GRUB"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/grub_2dcommon_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dmesg.service"
+         string "Save initial kernel messages after boot"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dmesg_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "swap.target"
+         string "Swaps"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/swap_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "blockdev@dev-nvme0n1p1.target"
+         string "Block Device Preparation for /dev/nvme0n1p1"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/blockdev_40dev_2dnvme0n1p1_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS24.device"
+         string "/dev/ttyS24"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.24-tty-ttyS24.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS24_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS26.device"
+         string "/dev/ttyS26"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.26-tty-ttyS26.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS26_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-10.device"
+         string "Lexar SSD PLAY 1TB"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d10_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "blockdev@dev-nvme1n1p1.target"
+         string "Block Device Preparation for /dev/nvme1n1p1"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/blockdev_40dev_2dnvme1n1p1_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS28.device"
+         string "/dev/ttyS28"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.28-tty-ttyS28.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS28_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2duuid-3df4a515\x2db436\x2d49a3\x2d8e3c\x2dad5f43a78fbf.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2duuid_2d3df4a515_5cx2db436_5cx2d49a3_5cx2d8e3c_5cx2dad5f43a78fbf_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.24-tty-ttyS24.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.24/tty/ttyS24"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e24_2dtty_2dttyS24_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-battery-check.service"
+         string "Check battery level during early boot"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dbattery_2dcheck_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "user-runtime-dir@1000.service"
+         string "User Runtime Directory /run/user/1000"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/user_2druntime_2ddir_401000_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-modules-load.service"
+         string "Load Kernel Modules"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dmodules_2dload_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.3-tty-ttyS3.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.3/tty/ttyS3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e3_2dtty_2dttyS3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-10\x2dpart2.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d10_5cx2dpart2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-kernel-config.mount"
+         string "Kernel Configuration File System"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dkernel_2dconfig_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "cups.socket"
+         string "CUPS Scheduler"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/cups_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1.device"
+         string "CT2000T500SSD8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a02_2e4_2d0000_3a03_3a00_2e0_2dnvme_2dnvme0_2dnvme0n1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-journald-audit.socket"
+         string "Journal Audit Socket"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2djournald_2daudit_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-ask-password-wall.service"
+         string "Forward Password Requests to Wall"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dask_2dpassword_2dwall_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-ask-password-console.service"
+         string "Dispatch Password Requests to Console"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dask_2dpassword_2dconsole_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpartuuid-1b969e07\x2d5de8\x2d413a\x2daa4e\x2d4269df31cb11.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpartuuid_2d1b969e07_5cx2d5de8_5cx2d413a_5cx2daa4e_5cx2d4269df31cb11_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "getty-pre.target"
+         string "Preparation for Logins"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/getty_2dpre_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd.target"
+         string "Initrd Default Target"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000.device"
+         string "Lexar SSD PLAY 1TB"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-udevadm-cleanup-db.service"
+         string "Cleanup udev Database"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2dudevadm_2dcleanup_2ddb_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plocate-updatedb.service"
+         string "Update the plocate database"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plocate_2dupdatedb_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2deui.000000000000000100a0752343990ae5\x2dpart1.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2deui_2e000000000000000100a0752343990ae5_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system-systemd\x2dbacklight.slice"
+         string "Slice /system/systemd-backlight"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system_2dsystemd_5cx2dbacklight_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS27.device"
+         string "/dev/ttyS27"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.27-tty-ttyS27.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS27_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000\x2dpart2.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5cx2dpart2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-initctl.service"
+         string "initctl Compatibility Daemon"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dinitctl_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "modprobe@configfs.service"
+         string "Load Kernel Module configfs"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/modprobe_40configfs_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000_1\x2dpart4.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5f1_5cx2dpart4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-virtual-block-loop0.device"
+         string "/sys/devices/virtual/block/loop0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dvirtual_2dblock_2dloop0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a01_2e2_2d0000_3a01_3a00_2e0_2dnvme_2dnvme1_2dnvme1n1_2dnvme1n1p4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000\x2dpart1.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "casper-md5check.service"
+         string "casper-md5check Verify Live ISO checksums"
+         string "loaded"
+         string "failed"
+         string "failed"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/casper_2dmd5check_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "postfix@-.service"
+         string "Postfix Mail Transport Agent (instance -)"
+         string "loaded"
+         string "failed"
+         string "failed"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/postfix_40_2d_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS7.device"
+         string "/dev/ttyS7"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.7-tty-ttyS7.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS7_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a02_2e4_2d0000_3a03_3a00_2e0_2dnvme_2dnvme0_2dnvme0n1_2dnvme0n1p1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-journald.service"
+         string "Journal Service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2djournald_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dnvme.1d97\x2d4e4b41333336323030323430365032303030\x2d4c657861722053534420504c415920315442\x2d00000001\x2dpart2.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dnvme_2e1d97_5cx2d4e4b41333336323030323430365032303030_5cx2d4c657861722053534420504c415920315442_5cx2d00000001_5cx2dpart2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system-postfix.slice"
+         string "Slice /system/postfix"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system_2dpostfix_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "alsa-state.service"
+         string "Manage Sound Card State (restore and store)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/alsa_2dstate_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dCT2000T500SSD8_233643990AE5.device"
+         string "CT2000T500SSD8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dCT2000T500SSD8_5f233643990AE5_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-tpmrm0.device"
+         string "/dev/tpmrm0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-LNXSYSTM:00-LNXSYBUS:00-MSFT0101:00-tpmrm-tpmrm0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dtpmrm0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-timesyncd.service"
+         string "Network Time Synchronization"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtimesyncd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-10\x2dpart4.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d10_5cx2dpart4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sockets.target"
+         string "Socket Units"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sockets_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-credentials-systemd\x2dsysusers.service.mount"
+         string "run-credentials-systemd\x2dsysusers.service.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2dcredentials_2dsystemd_5cx2dsysusers_2eservice_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sleep.target"
+         string "Sleep"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sleep_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "remote-cryptsetup.target"
+         string "Remote Encrypted Volumes"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/remote_2dcryptsetup_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-tpm0.device"
+         string "/dev/tpm0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-LNXSYSTM:00-LNXSYBUS:00-MSFT0101:00-tpm-tpm0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dtpm0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "smartmontools.service"
+         string "Self Monitoring and Reporting Technology (SMART) Daemon"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/smartmontools_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "kbd.service"
+         string "kbd.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/kbd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-rfkill.socket"
+         string "Load/Save RF Kill Switch Status /dev/rfkill Watch"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2drfkill_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-10\x2dpart1.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d10_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-nvme1n1p4.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dnvme1n1p4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "getty.target"
+         string "Login Prompts"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/getty_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-nvme1n1p1.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dnvme1n1p1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-update-done.service"
+         string "Update is Completed"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dupdate_2ddone_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "integritysetup.target"
+         string "Local Integrity Protected Volumes"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/integritysetup_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpartuuid-f10f321a\x2d27f3\x2d4a58\x2d8ece\x2da40f1c22a048.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpartuuid_2df10f321a_5cx2d27f3_5cx2d4a58_5cx2d8ece_5cx2da40f1c22a048_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-subsystem-bluetooth-devices-hci0.device"
+         string "/sys/subsystem/bluetooth/devices/hci0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dsubsystem_2dbluetooth_2ddevices_2dhci0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2duuid-F854\x2d5A56.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2duuid_2dF854_5cx2d5A56_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev.service.mount"
+         string "run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev.service.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2dcredentials_2dsystemd_5cx2dtmpfiles_5cx2dsetup_5cx2ddev_2eservice_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000_1.device"
+         string "Lexar SSD PLAY 1TB"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5f1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "remote-fs.target"
+         string "Remote File Systems"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/remote_2dfs_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "nfs-kernel-server.service"
+         string "nfs-kernel-server.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/nfs_2dkernel_2dserver_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-user-1000-doc.mount"
+         string "/run/user/1000/doc"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2duser_2d1000_2ddoc_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpath-pci\x2d0000:01:00.0\x2dnvme\x2d1\x2dpart4.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpath_2dpci_5cx2d0000_3a01_3a00_2e0_5cx2dnvme_5cx2d1_5cx2dpart4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "cups.path"
+         string "CUPS Scheduler"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/cups_2epath"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "iio-sensor-proxy.service"
+         string "IIO Sensor Proxy service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/iio_2dsensor_2dproxy_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "finalrd.service"
+         string "Create final runtime dir for shutdown pivot root"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/finalrd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "motd-news.timer"
+         string "Message of the Day"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/motd_2dnews_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "fcoe.service"
+         string "fcoe.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/fcoe_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "veritysetup.target"
+         string "Local Verity Protected Volumes"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/veritysetup_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "user-1000.slice"
+         string "User Slice of UID 1000"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/user_2d1000_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.4-tty-ttyS4.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.4/tty/ttyS4"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e4_2dtty_2dttyS4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "network.target"
+         string "Network"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/network_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-user-1000-gvfs.mount"
+         string "/run/user/1000/gvfs"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2duser_2d1000_2dgvfs_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "tpm-udev.service"
+         string "Handle dynamically added tpm devices"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/tpm_2dudev_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dloop\x2dinode-259:4\x2d7355912.device"
+         string "/dev/disk/by-loop-inode/259:4-7355912"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-virtual-block-loop0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dloop_5cx2dinode_2d259_3a4_5cx2d7355912_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "switcheroo-control.service"
+         string "Switcheroo Control Proxy service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/switcheroo_2dcontrol_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.14-tty-ttyS14.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.14/tty/ttyS14"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e14_2dtty_2dttyS14_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "session-c1.scope"
+         string "Session c1 of User ed"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/session_2dc1_2escope"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "irqbalance.service"
+         string "irqbalance daemon"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/irqbalance_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "nfs-server.service"
+         string "nfs-server.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/nfs_2dserver_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2deui.000000000000000100a0752343990ae5.device"
+         string "CT2000T500SSD8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2deui_2e000000000000000100a0752343990ae5_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-usr-fs.target"
+         string "Initrd /usr File System"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2dusr_2dfs_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-update-utmp.service"
+         string "Record System Boot/Shutdown in UTMP"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dupdate_2dutmp_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "proc-sys-fs-binfmt_misc.automount"
+         string "Arbitrary Executable File Formats File System Automount Point"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/proc_2dsys_2dfs_2dbinfmt_5fmisc_2eautomount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-subsystem-net-devices-enx9cbf0d006258.device"
+         string "USB_10_100_1G_2.5G_LAN"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dsubsystem_2dnet_2ddevices_2denx9cbf0d006258_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-virtual-tty-ttyprintk.device"
+         string "/sys/devices/virtual/tty/ttyprintk"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dvirtual_2dtty_2dttyprintk_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system-systemd\x2dcoredump.slice"
+         string "Slice /system/systemd-coredump"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system_2dsystemd_5cx2dcoredump_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-sysext.service"
+         string "Merge System Extension Images into /usr/ and /opt/"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dsysext_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dpkg-db-backup.timer"
+         string "Daily dpkg database backup timer"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dpkg_2ddb_2dbackup_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "hybrid-sleep.target"
+         string "Hybrid Suspend+Hibernate"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/hybrid_2dsleep_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-suspend-then-hibernate.service"
+         string "System Suspend then Hibernate"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dsuspend_2dthen_2dhibernate_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "tmp.mount"
+         string "tmp.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/tmp_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "accounts-daemon.service"
+         string "Accounts Service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/accounts_2ddaemon_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "motd-news.service"
+         string "Message of the Day"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/motd_2dnews_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "cryptsetup-pre.target"
+         string "Local Encrypted Volumes (Pre)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/cryptsetup_2dpre_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.28-tty-ttyS28.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.28/tty/ttyS28"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e28_2dtty_2dttyS28_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-binfmt.service"
+         string "Set Up Additional Binary Formats"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dbinfmt_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-halt.service"
+         string "System Halt"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dhalt_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "power-profiles-daemon.service"
+         string "Power Profiles daemon"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/power_2dprofiles_2ddaemon_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS29.device"
+         string "/dev/ttyS29"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.29-tty-ttyS29.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS29_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-networkd.service"
+         string "Network Configuration"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dnetworkd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-snd-controlC0.device"
+         string "/dev/snd/controlC0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.1-sound-card0-controlC0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dsnd_2dcontrolC0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "fstrim.service"
+         string "Discard unused blocks on filesystems from /etc/fstab"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/fstrim_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-tmpfiles-setup-dev.service"
+         string "Create Static Device Nodes in /dev"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtmpfiles_2dsetup_2ddev_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-udevd-kernel.socket"
+         string "udev Kernel Socket"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dudevd_2dkernel_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS20.device"
+         string "/dev/ttyS20"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.20-tty-ttyS20.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS20_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "setvtrgb.service"
+         string "Set console scheme"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/setvtrgb_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "bolt.service"
+         string "Thunderbolt system service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/bolt_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "lvm2-lvmpolld.socket"
+         string "LVM2 poll daemon socket"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/lvm2_2dlvmpolld_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "getty@tty1.service"
+         string "Getty on tty1"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/getty_40tty1_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-fs.target"
+         string "Initrd File Systems"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2dfs_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "emergency.service"
+         string "Emergency Shell"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/emergency_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS10.device"
+         string "/dev/ttyS10"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.10-tty-ttyS10.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS10_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.18-tty-ttyS18.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.18/tty/ttyS18"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e18_2dtty_2dttyS18_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS25.device"
+         string "/dev/ttyS25"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.25-tty-ttyS25.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS25_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpartuuid-2eb3679a\x2d3604\x2d4387\x2d8637\x2d3ab68a4ae646.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpartuuid_2d2eb3679a_5cx2d3604_5cx2d4387_5cx2d8637_5cx2d3ab68a4ae646_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.26-tty-ttyS26.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.26/tty/ttyS26"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e26_2dtty_2dttyS26_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS5.device"
+         string "/dev/ttyS5"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.5-tty-ttyS5.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS5_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-sysusers.service"
+         string "Create System Users"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dsysusers_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "auto-cpufreq.service"
+         string "auto-cpufreq.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/auto_2dcpufreq_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "nss-user-lookup.target"
+         string "User and Group Name Lookups"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/nss_2duser_2dlookup_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "apt-daily-upgrade.timer"
+         string "Daily apt upgrade and clean activities"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/apt_2ddaily_2dupgrade_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS9.device"
+         string "/dev/ttyS9"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.9-tty-ttyS9.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS9_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dlabel-Data.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dlabel_2dData_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "secureboot-db.service"
+         string "Secure Boot updates for DB and DBX"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/secureboot_2ddb_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.0-drm-card1-card1\x2deDP\x2d1-amdgpu_bl1.device"
+         string "/sys/devices/pci0000:00/0000:00:08.1/0000:c2:00.0/drm/card1/card1-eDP-1/amdgpu_bl1"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e1_2d0000_3ac2_3a00_2e0_2ddrm_2dcard1_2dcard1_5cx2deDP_5cx2d1_2damdgpu_5fbl1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "postfix.service"
+         string "Postfix Mail Transport Agent"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/postfix_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS31.device"
+         string "/dev/ttyS31"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.31-tty-ttyS31.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS31_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "veritysetup-pre.target"
+         string "Local Verity Protected Volumes (Pre)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/veritysetup_2dpre_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-fs-fuse-connections.mount"
+         string "FUSE Control File System"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dfs_2dfuse_2dconnections_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-coredump.socket"
+         string "Process Core Dump Socket"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dcoredump_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "wpa_supplicant.service"
+         string "WPA supplicant"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/wpa_5fsupplicant_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "modprobe@efi_pstore.service"
+         string "Load Kernel Module efi_pstore"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/modprobe_40efi_5fpstore_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpath-pci\x2d0000:01:00.0\x2dnvme\x2d1\x2dpart2.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpath_2dpci_5cx2d0000_3a01_3a00_2e0_5cx2dnvme_5cx2d1_5cx2dpart2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-oomd.service"
+         string "systemd-oomd.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2doomd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "NetworkManager-wait-online.service"
+         string "Network Manager Wait Online"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/NetworkManager_2dwait_2donline_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.16-tty-ttyS16.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.16/tty/ttyS16"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e16_2dtty_2dttyS16_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.30-tty-ttyS30.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.30/tty/ttyS30"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e30_2dtty_2dttyS30_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-random-seed.service"
+         string "Load/Save OS Random Seed"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2drandom_2dseed_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "display-manager.target"
+         string "display-manager.target"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/display_2dmanager_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "cups.service"
+         string "CUPS Scheduler"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/cups_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "final.target"
+         string "Late Shutdown Services"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/final_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-module-configfs.device"
+         string "/sys/module/configfs"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dmodule_2dconfigfs_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "slices.target"
+         string "Slice Units"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/slices_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "colord.service"
+         string "Manage, Install and Generate Color Profiles"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/colord_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "boot.mount"
+         string "boot.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/boot_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a01_2e2_2d0000_3a01_3a00_2e0_2dnvme_2dnvme1_2dnvme1n1_2dnvme1n1p3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-import.target"
+         string "ZFS pool import target"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dimport_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "iscsi.service"
+         string "iscsi.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/iscsi_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system-getty.slice"
+         string "Slice /system/getty"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system_2dgetty_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.1-sound-card0-controlC0.device"
+         string "/sys/devices/pci0000:00/0000:00:08.1/0000:c2:00.1/sound/card0/controlC0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e1_2d0000_3ac2_3a00_2e1_2dsound_2dcard0_2dcontrolC0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "netplan-ovs-cleanup.service"
+         string "OpenVSwitch configuration for cleanup"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/netplan_2dovs_2dcleanup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-hibernate.service"
+         string "System Hibernate"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dhibernate_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-udev-trigger.service"
+         string "Coldplug All udev Devices"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dudev_2dtrigger_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-25.device"
+         string "/dev/disk/by-diskseq/25"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-virtual-block-loop0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d25_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.6-tty-ttyS6.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.6/tty/ttyS6"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e6_2dtty_2dttyS6_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-initctl.socket"
+         string "initctl Compatibility Named Pipe"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dinitctl_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000_1\x2dpart3.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5f1_5cx2dpart3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "uuidd.service"
+         string "Daemon for generating UUIDs"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/uuidd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-9.device"
+         string "CT2000T500SSD8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d9_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-pcrphase-sysinit.service"
+         string "TPM2 PCR Barrier (Initialization)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dpcrphase_2dsysinit_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "tlp.service"
+         string "tlp.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/tlp_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-vconsole-setup.service"
+         string "systemd-vconsole-setup.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dvconsole_2dsetup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.13-tty-ttyS13.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.13/tty/ttyS13"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e13_2dtty_2dttyS13_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-backlight@backlight:amdgpu_bl1.service"
+         string "Load/Save Screen Backlight Brightness of backlight:amdgpu_bl1"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dbacklight_40backlight_3aamdgpu_5fbl1_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-import-cache.service"
+         string "Import ZFS pools by cache file"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dimport_2dcache_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "home-ed-Data.mount"
+         string "/home/ed/Data"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/home_2ded_2dData_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-ask-password-plymouth.service"
+         string "Forward Password Requests to Plymouth"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dask_2dpassword_2dplymouth_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS21.device"
+         string "/dev/ttyS21"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.21-tty-ttyS21.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS21_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.3-usb2-2\x2d2-2\x2d2.3-2\x2d2.3:1.0-net-enx9cbf0d006258.device"
+         string "USB_10_100_1G_2.5G_LAN"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e1_2d0000_3ac2_3a00_2e3_2dusb2_2d2_5cx2d2_2d2_5cx2d2_2e3_2d2_5cx2d2_2e3_3a1_2e0_2dnet_2denx9cbf0d006258_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-suspend.service"
+         string "System Suspend"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dsuspend_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyprintk.device"
+         string "/dev/ttyprintk"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-virtual-tty-ttyprintk.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyprintk_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "emergency.target"
+         string "Emergency Mode"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/emergency_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "touchegg.service"
+         string "Touchégg Daemon"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/touchegg_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpath-pci\x2d0000:01:00.0\x2dnvme\x2d1.device"
+         string "Lexar SSD PLAY 1TB"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpath_2dpci_5cx2d0000_3a01_3a00_2e0_5cx2dnvme_5cx2d1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-fsck-root.service"
+         string "File System Check on Root Device"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dfsck_2droot_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-update-utmp-runlevel.service"
+         string "Record Runlevel Change in UTMP"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dupdate_2dutmp_2drunlevel_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dnvme.1d97\x2d4e4b41333336323030323430365032303030\x2d4c657861722053534420504c415920315442\x2d00000001.device"
+         string "Lexar SSD PLAY 1TB"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dnvme_2e1d97_5cx2d4e4b41333336323030323430365032303030_5cx2d4c657861722053534420504c415920315442_5cx2d00000001_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-ask-password-wall.path"
+         string "Forward Password Requests to Wall Directory Watch"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dask_2dpassword_2dwall_2epath"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "blk-availability.service"
+         string "Availability of block devices"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/blk_2davailability_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-ask-password-console.path"
+         string "Dispatch Password Requests to Console Directory Watch"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dask_2dpassword_2dconsole_2epath"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "thermald.service"
+         string "Thermal Daemon Service"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/thermald_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "mosquitto.service"
+         string "Mosquitto MQTT Broker"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/mosquitto_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "init.scope"
+         string "System and Service Manager"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/init_2escope"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpath-pci\x2d0000:01:00.0\x2dnvme\x2d1\x2dpart1.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpath_2dpci_5cx2d0000_3a01_3a00_2e0_5cx2dnvme_5cx2d1_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-journald.socket"
+         string "Journal Socket"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2djournald_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a01_2e2_2d0000_3a01_3a00_2e0_2dnvme_2dnvme1_2dnvme1n1_2dnvme1n1p1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-snd-by\x2dpath-pci\x2d0000:c2:00.1.device"
+         string "/dev/snd/by-path/pci-0000:c2:00.1"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.1-sound-card0-controlC0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dsnd_2dby_5cx2dpath_2dpci_5cx2d0000_3ac2_3a00_2e1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS30.device"
+         string "/dev/ttyS30"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.30-tty-ttyS30.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS30_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system-modprobe.slice"
+         string "Slice /system/modprobe"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system_2dmodprobe_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-tmpfiles-clean.timer"
+         string "Daily Cleanup of Temporary Directories"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtmpfiles_2dclean_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "alsa-restore.service"
+         string "Save/Restore Sound Card State"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/alsa_2drestore_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-credentials-systemd\x2dresolved.service.mount"
+         string "run-credentials-systemd\x2dresolved.service.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2dcredentials_2dsystemd_5cx2dresolved_2eservice_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "man-db.timer"
+         string "Daily man-db regeneration"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/man_2ddb_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.15-tty-ttyS15.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.15/tty/ttyS15"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e15_2dtty_2dttyS15_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-start.service"
+         string "Show Plymouth Boot Screen"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dstart_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-LNXSYSTM:00-LNXSYBUS:00-MSFT0101:00-tpm-tpm0.device"
+         string "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/MSFT0101:00/tpm/tpm0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dLNXSYSTM_3a00_2dLNXSYBUS_3a00_2dMSFT0101_3a00_2dtpm_2dtpm0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "ssl-cert.service"
+         string "Generate snakeoil SSL keypair"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/ssl_2dcert_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.12-tty-ttyS12.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.12/tty/ttyS12"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e12_2dtty_2dttyS12_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-resolved.service"
+         string "Network Name Resolution"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dresolved_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "nss-lookup.target"
+         string "Host and Network Name Lookups"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/nss_2dlookup_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "tuned.service"
+         string "tuned.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/tuned_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-credentials-systemd\x2dsysctl.service.mount"
+         string "run-credentials-systemd\x2dsysctl.service.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2dcredentials_2dsystemd_5cx2dsysctl_2eservice_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dracut-mount.service"
+         string "dracut-mount.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dracut_2dmount_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-read-write.service"
+         string "Tell Plymouth To Write Out Runtime Data"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dread_2dwrite_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system76-power.service"
+         string "system76-power.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system76_2dpower_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "cron.service"
+         string "Regular background program processing daemon"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/cron_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "udisks2.service"
+         string "Disk Manager"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/udisks2_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dnvme.1d97\x2d4e4b41333336323030323430365032303030\x2d4c657861722053534420504c415920315442\x2d00000001\x2dpart1.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dnvme_2e1d97_5cx2d4e4b41333336323030323430365032303030_5cx2d4c657861722053534420504c415920315442_5cx2d00000001_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpath-pci\x2d0000:01:00.0\x2dnvme\x2d1\x2dpart3.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpath_2dpci_5cx2d0000_3a01_3a00_2e0_5cx2dnvme_5cx2d1_5cx2dpart3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-reboot.service"
+         string "System Reboot"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dreboot_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS1.device"
+         string "/dev/ttyS1"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.1-tty-ttyS1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "console-setup.service"
+         string "Set console font and keymap"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/console_2dsetup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.27-tty-ttyS27.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.27/tty/ttyS27"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e27_2dtty_2dttyS27_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dm-event.service"
+         string "Device-mapper event daemon"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dm_2devent_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "lvm2-lvmpolld.service"
+         string "LVM2 poll daemon"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/lvm2_2dlvmpolld_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "syslog.socket"
+         string "Syslog Socket"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/syslog_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "multipathd.service"
+         string "multipathd.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/multipathd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "remote-veritysetup.target"
+         string "Remote Verity Protected Volumes"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/remote_2dveritysetup_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "openvpn.service"
+         string "OpenVPN service"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/openvpn_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "suspend.target"
+         string "Suspend"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/suspend_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-tpm2-setup-early.service"
+         string "TPM2 SRK Setup (Early)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtpm2_2dsetup_2dearly_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "network-online.target"
+         string "Network is Online"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/network_2donline_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "modprobe@dm_mod.service"
+         string "Load Kernel Module dm_mod"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/modprobe_40dm_5fmod_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a01_2e2_2d0000_3a01_3a00_2e0_2dnvme_2dnvme1_2dnvme1n1_2dnvme1n1p2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-ask-password-plymouth.path"
+         string "Forward Password Requests to Plymouth Directory Watch"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dask_2dpassword_2dplymouth_2epath"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-nvme1n1p3.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dnvme1n1p3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "apt-daily.timer"
+         string "Daily apt download activities"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/apt_2ddaily_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "anacron.service"
+         string "Run anacron jobs"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/anacron_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "avahi-daemon.socket"
+         string "Avahi mDNS/DNS-SD Stack Activation Socket"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/avahi_2ddaemon_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-share.service"
+         string "ZFS file system shares"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dshare_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-reboot.service"
+         string "Show Plymouth Reboot Screen"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dreboot_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpartuuid-3c8c48ba\x2d872d\x2d41b1\x2db3d5\x2d74a996c89677.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpartuuid_2d3c8c48ba_5cx2d872d_5cx2d41b1_5cx2db3d5_5cx2d74a996c89677_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "ufw.service"
+         string "Uncomplicated firewall"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/ufw_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "rtkit-daemon.service"
+         string "RealtimeKit Scheduling Policy Service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/rtkit_2ddaemon_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "apt-daily-upgrade.service"
+         string "Daily apt upgrade and clean activities"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/apt_2ddaily_2dupgrade_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "rc-local.service"
+         string "/etc/rc.local Compatibility"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/rc_2dlocal_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-cleanup.service"
+         string "Cleaning Up and Shutting Down Daemons"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2dcleanup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS6.device"
+         string "/dev/ttyS6"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.6-tty-ttyS6.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS6_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "virtualbox.service"
+         string "LSB: VirtualBox Linux kernel module"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/virtualbox_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "modprobe@loop.service"
+         string "Load Kernel Module loop"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/modprobe_40loop_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-tmpfiles-setup-dev-early.service"
+         string "Create Static Device Nodes in /dev gracefully"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtmpfiles_2dsetup_2ddev_2dearly_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-root-fs.target"
+         string "Initrd Root File System"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2droot_2dfs_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "soft-reboot.target"
+         string "Reboot System Userspace"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/soft_2dreboot_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-poweroff.service"
+         string "Show Plymouth Power Off Screen"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dpoweroff_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "fwupd-refresh.service"
+         string "Refresh fwupd metadata and update motd"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/fwupd_2drefresh_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "paths.target"
+         string "Path Units"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/paths_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "getty@tty7.service"
+         string "Getty on tty7"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/getty_40tty7_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "lvm2-monitor.service"
+         string "Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/lvm2_2dmonitor_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-switch-root.service"
+         string "Plymouth switch root service"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dswitch_2droot_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS16.device"
+         string "/dev/ttyS16"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.16-tty-ttyS16.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS16_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "root-.cache-doc.mount"
+         string "/root/.cache/doc"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/root_2d_2ecache_2ddoc_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "auditd.service"
+         string "auditd.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/auditd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "casper.service"
+         string "Shuts down the "live" preinstalled system cleanly"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/casper_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "ovsdb-server.service"
+         string "ovsdb-server.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/ovsdb_2dserver_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "mintsystem.service"
+         string "mintsystem.service"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/mintsystem_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS23.device"
+         string "/dev/ttyS23"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.23-tty-ttyS23.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS23_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "kerneloops.service"
+         string "Tool to automatically collect and submit kernel crash signatures"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/kerneloops_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "rescue.target"
+         string "Rescue Mode"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/rescue_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "networkd-dispatcher.service"
+         string "Dispatcher daemon for systemd-networkd"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/networkd_2ddispatcher_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.21-tty-ttyS21.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.21/tty/ttyS21"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e21_2dtty_2dttyS21_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-udevd-control.socket"
+         string "udev Control Socket"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dudevd_2dcontrol_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-fsck@dev-disk-by\x2duuid-F854\x2d5A56.service"
+         string "File System Check on /dev/disk/by-uuid/F854-5A56"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dfsck_40dev_2ddisk_2dby_5cx2duuid_2dF854_5cx2d5A56_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "local-fs.target"
+         string "Local File Systems"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/local_2dfs_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "timers.target"
+         string "Timer Units"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/timers_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "iscsi-shutdown.service"
+         string "iscsi-shutdown.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/iscsi_2dshutdown_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "network-pre.target"
+         string "Preparation for Network"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/network_2dpre_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-remount-fs.service"
+         string "Remount Root and Kernel File Systems"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dremount_2dfs_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS22.device"
+         string "/dev/ttyS22"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.22-tty-ttyS22.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS22_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-journal-flush.service"
+         string "Flush Journal to Persistent Storage"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2djournal_2dflush_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "user@1000.service"
+         string "User Manager for UID 1000"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/user_401000_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.2-tty-ttyS2.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.2/tty/ttyS2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e2_2dtty_2dttyS2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-volumes.target"
+         string "ZFS volumes are ready"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dvolumes_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.1-tty-ttyS1.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.1/tty/ttyS1"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e1_2dtty_2dttyS1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS17.device"
+         string "/dev/ttyS17"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.17-tty-ttyS17.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS17_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.9-tty-ttyS9.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.9/tty/ttyS9"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e9_2dtty_2dttyS9_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "time-set.target"
+         string "System Time Set"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/time_2dset_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sendmail.service"
+         string "sendmail.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sendmail_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-nvme0n1p1.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dnvme0n1p1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-mqueue.mount"
+         string "POSIX Message Queue File System"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dev_2dmqueue_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-hibernate-resume.service"
+         string "Resume from hibernation"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dhibernate_2dresume_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "fwupd-refresh.timer"
+         string "Refresh fwupd metadata regularly"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/fwupd_2drefresh_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dbus.service"
+         string "D-Bus System Message Bus"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dbus_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-quit.service"
+         string "Terminate Plymouth Boot Screen"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dquit_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "swapfile.swap"
+         string "/swapfile"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/swapfile_2eswap"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dCT2000T500SSD8_233643990AE5_1\x2dpart1.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dCT2000T500SSD8_5f233643990AE5_5f1_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-halt.service"
+         string "Show Plymouth Halt Screen"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dhalt_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plocate-updatedb.timer"
+         string "Update the plocate database daily"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plocate_2dupdatedb_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-tpm2-setup.service"
+         string "TPM2 SRK Setup"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtpm2_2dsetup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "plymouth-quit-wait.service"
+         string "Hold until boot process finishes up"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/plymouth_2dquit_2dwait_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-pcrmachine.service"
+         string "TPM2 PCR Machine ID Measurement"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dpcrmachine_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "boot.automount"
+         string "boot.automount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/boot_2eautomount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-logind.service"
+         string "User Login Management"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dlogind_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dCT2000T500SSD8_233643990AE5_1.device"
+         string "CT2000T500SSD8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dCT2000T500SSD8_5f233643990AE5_5f1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-hwdb-update.service"
+         string "Rebuild Hardware Database"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dhwdb_2dupdate_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "modprobe@drm.service"
+         string "Load Kernel Module drm"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/modprobe_40drm_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.25-tty-ttyS25.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.25/tty/ttyS25"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e25_2dtty_2dttyS25_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dpkg-db-backup.service"
+         string "Daily dpkg database backup service"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dpkg_2ddb_2dbackup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "cryptsetup.target"
+         string "Local Encrypted Volumes"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/cryptsetup_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-journald-dev-log.socket"
+         string "Journal Socket (/dev/log)"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2djournald_2ddev_2dlog_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-load-module.service"
+         string "Install ZFS kernel module"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dload_2dmodule_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs.target"
+         string "ZFS startup target"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-firstboot.service"
+         string "First Boot Wizard"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dfirstboot_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "boot-efi.mount"
+         string "/boot/efi"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/boot_2defi_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "rsyslog.service"
+         string "System Logging Service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/rsyslog_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "keyboard-setup.service"
+         string "Set the console keyboard layout"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/keyboard_2dsetup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "fstrim.timer"
+         string "Discard unused filesystem blocks once a week"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/fstrim_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.17-tty-ttyS17.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.17/tty/ttyS17"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e17_2dtty_2dttyS17_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS2.device"
+         string "/dev/ttyS2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.2-tty-ttyS2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "bluetooth.target"
+         string "Bluetooth Support"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/bluetooth_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.22-tty-ttyS22.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.22/tty/ttyS22"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e22_2dtty_2dttyS22_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "root-.gvfs.mount"
+         string "/root/.gvfs"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/root_2d_2egvfs_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-nvme1n1p2.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dnvme1n1p2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS15.device"
+         string "/dev/ttyS15"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.15-tty-ttyS15.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS15_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2duuid-c3557e0e\x2d7115\x2d4f11\x2d82ac\x2dcbd2037b28ce.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2duuid_2dc3557e0e_5cx2d7115_5cx2d4f11_5cx2d82ac_5cx2dcbd2037b28ce_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "getty-static.service"
+         string "getty on tty2-tty6 if dbus and logind are not available"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/getty_2dstatic_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "graphical.target"
+         string "Graphical Interface"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/graphical_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-pcrphase-initrd.service"
+         string "TPM2 PCR Barrier (initrd)"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dpcrphase_2dinitrd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1.device"
+         string "Lexar SSD PLAY 1TB"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a01_2e2_2d0000_3a01_3a00_2e0_2dnvme_2dnvme1_2dnvme1n1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount"
+         string "run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2dcredentials_2dsystemd_5cx2dtmpfiles_5cx2dclean_2eservice_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "multi-user.target"
+         string "Multi-User System"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/multi_2duser_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "nslcd.service"
+         string "nslcd.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/nslcd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.3-0000:c4:00.6-domain1.device"
+         string "/sys/devices/pci0000:00/0000:00:08.3/0000:c4:00.6/domain1"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e3_2d0000_3ac4_3a00_2e6_2ddomain1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-credentials-systemd\x2dtmpfiles\x2dsetup.service.mount"
+         string "run-credentials-systemd\x2dtmpfiles\x2dsetup.service.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2dcredentials_2dsystemd_5cx2dtmpfiles_5cx2dsetup_2eservice_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev\x2dearly.service.mount"
+         string "run-credentials-systemd\x2dtmpfiles\x2dsetup\x2ddev\x2dearly.service.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2dcredentials_2dsystemd_5cx2dtmpfiles_5cx2dsetup_5cx2ddev_5cx2dearly_2eservice_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-root-device.target"
+         string "Initrd Root Device"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2droot_2ddevice_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-loop0.device"
+         string "/dev/loop0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-virtual-block-loop0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dloop0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "uuidd.socket"
+         string "UUID daemon activation socket"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/uuidd_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "swapspace.service"
+         string "Swapspace, a dynamic swap space manager"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/swapspace_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dbus-mqtt-bridge.service"
+         string "DBus-MQTT Bridge Service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dbus_2dmqtt_2dbridge_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-kernel-debug.mount"
+         string "Kernel Debug File System"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dkernel_2ddebug_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-bsod.service"
+         string "Displays emergency message in full screen."
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dbsod_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-tmpfiles-clean.service"
+         string "Cleanup of Temporary Directories"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtmpfiles_2dclean_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "fwupd.service"
+         string "Firmware update daemon"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/fwupd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "apparmor.service"
+         string "Load AppArmor profiles"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/apparmor_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:02.2-0000:02:00.0-net-wlp2s0.device"
+         string "MT7922 802.11ax PCI Express Wireless Network Adapter"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a02_2e2_2d0000_3a02_3a00_2e0_2dnet_2dwlp2s0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000\x2dpart4.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5cx2dpart4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "anacron.timer"
+         string "Trigger anacron every hour"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/anacron_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000_1\x2dpart2.device"
+         string "Lexar SSD PLAY 1TB 2"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p2.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5f1_5cx2dpart2_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-nvme1n1.device"
+         string "Lexar SSD PLAY 1TB"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dnvme1n1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.20-tty-ttyS20.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.20/tty/ttyS20"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e20_2dtty_2dttyS20_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpath-pci\x2d0000:03:00.0\x2dnvme\x2d1.device"
+         string "CT2000T500SSD8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpath_2dpci_5cx2d0000_3a03_3a00_2e0_5cx2dnvme_5cx2d1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "-.mount"
+         string "Root Mount"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/_2d_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "logrotate.service"
+         string "Rotate log files"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/logrotate_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.3-0000:c4:00.5-domain0.device"
+         string "/sys/devices/pci0000:00/0000:00:08.3/0000:c4:00.5/domain0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e3_2d0000_3ac4_3a00_2e5_2ddomain0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "blueman-mechanism.service"
+         string "Bluetooth management mechanism"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/blueman_2dmechanism_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-module-fuse.device"
+         string "/sys/module/fuse"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dmodule_2dfuse_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-iio:device0.device"
+         string "/dev/iio:device0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-AMDI0010:00-i2c\x2d0-i2c\x2dFRMW0003:00-0018:32AC:001B.0001-HID\x2dSENSOR\x2d200041.1.auto-iio:device0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2diio_3adevice0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.0-tty-ttyS0.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.0/tty/ttyS0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e0_2dtty_2dttyS0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS3.device"
+         string "/dev/ttyS3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.3-tty-ttyS3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dbus.socket"
+         string "D-Bus System Message Bus Socket"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dbus_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-rfkill.service"
+         string "Load/Save RF Kill Switch Status"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2drfkill_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS19.device"
+         string "/dev/ttyS19"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.19-tty-ttyS19.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS19_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-volume-wait.service"
+         string "Wait for ZFS Volume (zvol) links in /dev"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dvolume_2dwait_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "ubuntu-system-adjustments.service"
+         string "Ubuntu system adjustments"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/ubuntu_2dsystem_2dadjustments_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "upower.service"
+         string "Daemon for power management"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/upower_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.29-tty-ttyS29.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.29/tty/ttyS29"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e29_2dtty_2dttyS29_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS8.device"
+         string "/dev/ttyS8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.8-tty-ttyS8.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS8_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "avahi-daemon.service"
+         string "Avahi mDNS/DNS-SD Stack"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/avahi_2ddaemon_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "local-fs-pre.target"
+         string "Preparation for Local File Systems"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/local_2dfs_2dpre_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-quotacheck.service"
+         string "File System Quota Check"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dquotacheck_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2ddiskseq-10\x2dpart3.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2ddiskseq_2d10_5cx2dpart3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-udev-settle.service"
+         string "Wait for udev To Complete Device Initialization"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dudev_2dsettle_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2duuid-6c057ea1\x2da824\x2d4efb\x2da93c\x2d3e80366bf9cb.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2duuid_2d6c057ea1_5cx2da824_5cx2d4efb_5cx2da93c_5cx2d3e80366bf9cb_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system.slice"
+         string "System Slice"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "blockdev@dev-disk-by\x2duuid-F854\x2d5A56.target"
+         string "Block Device Preparation for /dev/disk/by-uuid/F854-5A56"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/blockdev_40dev_2ddisk_2dby_5cx2duuid_2dF854_5cx2d5A56_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "zfs-mount.service"
+         string "Mount ZFS filesystems"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/zfs_2dmount_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "smb.service"
+         string "smb.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/smb_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dlabel-fedora.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dlabel_2dfedora_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "run-user-1000.mount"
+         string "/run/user/1000"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/run_2duser_2d1000_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "suspend-then-hibernate.target"
+         string "Suspend; Hibernate if not used for a period of time"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/suspend_2dthen_2dhibernate_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.7-tty-ttyS7.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.7/tty/ttyS7"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e7_2dtty_2dttyS7_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "ModemManager.service"
+         string "Modem Manager"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/ModemManager_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS12.device"
+         string "/dev/ttyS12"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.12-tty-ttyS12.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS12_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "hibernate.target"
+         string "System Hibernation"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/hibernate_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000_1\x2dpart1.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5f1_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-networkd.socket"
+         string "Network Service Netlink Socket"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dnetworkd_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "snmpd.service"
+         string "Simple Network Management Protocol (SNMP) Daemon."
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/snmpd_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "logrotate.timer"
+         string "Hourly rotation of log files"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/logrotate_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "rpc-statd-notify.service"
+         string "rpc-statd-notify.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/rpc_2dstatd_2dnotify_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "oem-config.service"
+         string "oem-config.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/oem_2dconfig_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2dpartlabel-EFI\x5cx20System\x5cx20Partition.device"
+         string "Lexar SSD PLAY 1TB EFI\x20System\x20Partition"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2dpartlabel_2dEFI_5cx5cx20System_5cx5cx20Partition_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "shutdown.target"
+         string "System Shutdown"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/shutdown_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "NetworkManager.service"
+         string "Network Manager"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/NetworkManager_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "kmod-static-nodes.service"
+         string "Create List of Static Device Nodes"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/kmod_2dstatic_2dnodes_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.3-usb1-1\x2d5-1\x2d5:1.0-bluetooth-hci0.device"
+         string "/sys/devices/pci0000:00/0000:00:08.1/0000:c2:00.3/usb1/1-5/1-5:1.0/bluetooth/hci0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e1_2d0000_3ac2_3a00_2e3_2dusb1_2d1_5cx2d5_2d1_5cx2d5_3a1_2e0_2dbluetooth_2dhci0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-hugepages.mount"
+         string "Huge Pages File System"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/dev_2dhugepages_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-snd-controlC1.device"
+         string "/dev/snd/controlC1"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.6-sound-card1-controlC1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dsnd_2dcontrolC1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS14.device"
+         string "/dev/ttyS14"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.14-tty-ttyS14.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS14_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-switch-root.target"
+         string "Switch Root"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2dswitch_2droot_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "man-db.service"
+         string "Daily man-db regeneration"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/man_2ddb_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dnvme.1d97\x2d4e4b41333336323030323430365032303030\x2d4c657861722053534420504c415920315442\x2d00000001\x2dpart3.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dnvme_2e1d97_5cx2d4e4b41333336323030323430365032303030_5cx2d4c657861722053534420504c415920315442_5cx2d00000001_5cx2dpart3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-soft-reboot.service"
+         string "Reboot System Userspace"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dsoft_2dreboot_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS0.device"
+         string "/dev/ttyS0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.0-tty-ttyS0.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "lightdm.service"
+         string "Light Display Manager"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/lightdm_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.6-sound-card1-controlC1.device"
+         string "/sys/devices/pci0000:00/0000:00:08.1/0000:c2:00.6/sound/card1/controlC1"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e1_2d0000_3ac2_3a00_2e6_2dsound_2dcard1_2dcontrolC1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-subsystem-net-devices-wlp2s0.device"
+         string "MT7922 802.11ax PCI Express Wireless Network Adapter"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dsubsystem_2dnet_2ddevices_2dwlp2s0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-kernel-tracing.mount"
+         string "Kernel Trace File System"
+         string "loaded"
+         string "active"
+         string "mounted"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2dkernel_2dtracing_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-tmpfiles-setup.service"
+         string "Create Volatile Files and Directories"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dtmpfiles_2dsetup_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.3-0000:c4:00.6-domain1-1\x2d0.device"
+         string "/sys/devices/pci0000:00/0000:00:08.3/0000:c4:00.6/domain1/1-0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e3_2d0000_3ac4_3a00_2e6_2ddomain1_2d1_5cx2d0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "blockdev@dev-disk-by\x2duuid-c3557e0e\x2d7115\x2d4f11\x2d82ac\x2dcbd2037b28ce.target"
+         string "Block Device Preparation for /dev/disk/by-uuid/c3557e0e-7115-4f11-82ac-cbd2037b28ce"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/blockdev_40dev_2ddisk_2dby_5cx2duuid_2dc3557e0e_5cx2d7115_5cx2d4f11_5cx2d82ac_5cx2dcbd2037b28ce_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-snd-by\x2dpath-pci\x2d0000:c2:00.6.device"
+         string "/dev/snd/by-path/pci-0000:c2:00.6"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:08.1-0000:c2:00.6-sound-card1-controlC1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dsnd_2dby_5cx2dpath_2dpci_5cx2d0000_3ac2_3a00_2e6_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-pci0000:00-0000:00:08.3-0000:c4:00.5-domain0-0\x2d0.device"
+         string "/sys/devices/pci0000:00/0000:00:08.3/0000:c4:00.5/domain0/0-0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dpci0000_3a00_2d0000_3a00_3a08_2e3_2d0000_3ac4_3a00_2e5_2ddomain0_2d0_5cx2d0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-user-sessions.service"
+         string "Permit User Sessions"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2duser_2dsessions_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "user.slice"
+         string "User and Session Slice"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/user_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.11-tty-ttyS11.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.11/tty/ttyS11"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e11_2dtty_2dttyS11_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dLexar_SSD_PLAY_1TB_NKA3362002406P2000\x2dpart3.device"
+         string "Lexar SSD PLAY 1TB 3"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p3.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dLexar_5fSSD_5fPLAY_5f1TB_5fNKA3362002406P2000_5cx2dpart3_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.31-tty-ttyS31.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.31/tty/ttyS31"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e31_2dtty_2dttyS31_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "e2scrub_all.service"
+         string "Online ext4 Metadata Check for All Filesystems"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/e2scrub_5fall_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "initrd-parse-etc.service"
+         string "Mountpoints Configured in the Real Root"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/initrd_2dparse_2detc_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-sysext.socket"
+         string "System Extension Image Management (Varlink)"
+         string "loaded"
+         string "active"
+         string "listening"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dsysext_2esocket"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS18.device"
+         string "/dev/ttyS18"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.18-tty-ttyS18.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS18_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.23-tty-ttyS23.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.23/tty/ttyS23"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e23_2dtty_2dttyS23_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-sysctl.service"
+         string "Apply Kernel Variables"
+         string "loaded"
+         string "active"
+         string "exited"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dsysctl_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dnvme.1d97\x2d4e4b41333336323030323430365032303030\x2d4c657861722053534420504c415920315442\x2d00000001\x2dpart4.device"
+         string "Lexar SSD PLAY 1TB fedora"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:01.2-0000:01:00.0-nvme-nvme1-nvme1n1-nvme1n1p4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dnvme_2e1d97_5cx2d4e4b41333336323030323430365032303030_5cx2d4c657861722053534420504c415920315442_5cx2d00000001_5cx2dpart4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-pstore.service"
+         string "Platform Persistent Storage Archival"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dpstore_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.8-tty-ttyS8.device"
+         string "/sys/devices/platform/serial8250/serial8250:0/serial8250:0.8/tty/ttyS8"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dserial8250_2dserial8250_3a0_2dserial8250_3a0_2e8_2dtty_2dttyS8_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-machine-id-commit.service"
+         string "Commit a transient machine-id on disk"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dmachine_2did_2dcommit_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS4.device"
+         string "/dev/ttyS4"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.4-tty-ttyS4.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS4_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "home.mount"
+         string "home.mount"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/home_2emount"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "systemd-poweroff.service"
+         string "System Power Off"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/systemd_2dpoweroff_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "-.slice"
+         string "Root Slice"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/_2d_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "apt-daily.service"
+         string "Daily apt download activities"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/apt_2ddaily_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-disk-by\x2did-nvme\x2dCT2000T500SSD8_233643990AE5\x2dpart1.device"
+         string "CT2000T500SSD8 Data"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-pci0000:00-0000:00:02.4-0000:03:00.0-nvme-nvme0-nvme0n1-nvme0n1p1.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2ddisk_2dby_5cx2did_2dnvme_5cx2dCT2000T500SSD8_5f233643990AE5_5cx2dpart1_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "rbdmap.service"
+         string "rbdmap.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/rbdmap_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-platform-AMDI0010:00-i2c\x2d0-i2c\x2dFRMW0003:00-0018:32AC:001B.0001-HID\x2dSENSOR\x2d200041.1.auto-iio:device0.device"
+         string "/sys/devices/platform/AMDI0010:00/i2c-0/i2c-FRMW0003:00/0018:32AC:001B.0001/HID-SENSOR-200041.1.auto/iio:device0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dplatform_2dAMDI0010_3a00_2di2c_5cx2d0_2di2c_5cx2dFRMW0003_3a00_2d0018_3a32AC_3a001B_2e0001_2dHID_5cx2dSENSOR_5cx2d200041_2e1_2eauto_2diio_3adevice0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-rfkill.device"
+         string "/dev/rfkill"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-virtual-misc-rfkill.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2drfkill_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "exim4.service"
+         string "exim4.service"
+         string "not-found"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/exim4_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-LNXSYSTM:00-LNXSYBUS:00-MSFT0101:00-tpmrm-tpmrm0.device"
+         string "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/MSFT0101:00/tpmrm/tpmrm0"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dLNXSYSTM_3a00_2dLNXSYBUS_3a00_2dMSFT0101_3a00_2dtpmrm_2dtpmrm0_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "rescue.service"
+         string "Rescue Shell"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/rescue_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "e2scrub_all.timer"
+         string "Periodic ext4 Online Metadata Check for All Filesystems"
+         string "loaded"
+         string "active"
+         string "waiting"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/e2scrub_5fall_2etimer"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "dev-ttyS11.device"
+         string "/dev/ttyS11"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string "sys-devices-platform-serial8250-serial8250:0-serial8250:0.11-tty-ttyS11.device"
+         object path "/org/freedesktop/systemd1/unit/dev_2dttyS11_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "remote-fs-pre.target"
+         string "Preparation for Remote File Systems"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/remote_2dfs_2dpre_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sysinit.target"
+         string "System Initialization"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sysinit_2etarget"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "sys-devices-virtual-misc-rfkill.device"
+         string "/sys/devices/virtual/misc/rfkill"
+         string "loaded"
+         string "active"
+         string "plugged"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/sys_2ddevices_2dvirtual_2dmisc_2drfkill_2edevice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "system-systemd\x2dfsck.slice"
+         string "Slice /system/systemd-fsck"
+         string "loaded"
+         string "active"
+         string "active"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/system_2dsystemd_5cx2dfsck_2eslice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "ldconfig.service"
+         string "Rebuild Dynamic Linker Cache"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/ldconfig_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "grub-initrd-fallback.service"
+         string "GRUB failed boot detection"
+         string "loaded"
+         string "inactive"
+         string "dead"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/grub_2dinitrd_2dfallback_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+      struct {
+         string "bluetooth.service"
+         string "Bluetooth service"
+         string "loaded"
+         string "active"
+         string "running"
+         string ""
+         object path "/org/freedesktop/systemd1/unit/bluetooth_2eservice"
+         uint32 0
+         string ""
+         object path "/"
+      }
+   ]

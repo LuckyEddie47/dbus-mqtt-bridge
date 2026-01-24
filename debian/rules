@@ -1,0 +1,41 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Ed Lee
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+# See FEATURE AREAS in dpkg-buildflags(1)
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+# See ENVIRONMENT in dpkg-buildflags(1)
+export DEB_CFLAGS_MAINT_APPEND  = -Wall -pedantic
+export DEB_CXXFLAGS_MAINT_APPEND = -Wall -pedantic
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		-DCMAKE_BUILD_TYPE=RelWithDebInfo
+
+override_dh_auto_test:
+	# Run tests during build
+	dh_auto_test
+
+override_dh_installsystemd:
+	# Install systemd service but do NOT enable or start it
+	# Users must configure before enabling
+	dh_installsystemd --no-enable --no-start
+
+override_dh_installdocs:
+	dh_installdocs
+	# Install example files (will be compressed by dh_compress)
+	dh_installdocs -p dbus-mqtt-bridge examples/config.yaml
+	dh_installdocs -p dbus-mqtt-bridge examples/dbus-policy.conf
+
+override_dh_compress:
+	# Compress documentation but keep example config readable
+	dh_compress -X.yaml -X.conf

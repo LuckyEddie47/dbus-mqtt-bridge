@@ -1,0 +1,72 @@
+# D-Bus MQTT Bridge Configuration
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Copyright (C) 2026 Ed Lee
+#
+# This is an example configuration file for dbus-mqtt-bridge.
+# Copy this file to /etc/dbus-mqtt-bridge/config.yaml and customize it
+# for your environment.
+#
+# For detailed documentation, see: man dbus-mqtt-bridge
+
+# MQTT Broker Configuration
+mqtt:
+  # MQTT broker hostname or IP address (REQUIRED)
+  broker: "localhost"
+  
+  # MQTT broker port (default: 1883)
+  port: 1883
+  
+  # Authentication (optional)
+  # If using authentication, uncomment and configure:
+  # auth:
+  #   username: "your-username"
+  #   password: "your-password"
+
+# D-Bus bus type: "system" or "session" (default: "system")
+bus_type: "system"
+
+# Mappings between D-Bus and MQTT
+mappings:
+  # D-Bus signals to MQTT topics
+  # These signals are received from D-Bus and published to MQTT
+  dbus_to_mqtt:
+    # Example: Forward NetworkManager state changes to MQTT
+    # - service: "org.freedesktop.NetworkManager"
+    #   path: "/org/freedesktop/NetworkManager"
+    #   interface: "org.freedesktop.NetworkManager"
+    #   signal: "StateChanged"
+    #   topic: "dbus/network/state"
+    
+    # Example: Forward systemd unit changes to MQTT
+    # - service: "org.freedesktop.systemd1"
+    #   path: "/org/freedesktop/systemd1"
+    #   interface: "org.freedesktop.systemd1.Manager"
+    #   signal: "UnitNew"
+    #   topic: "dbus/systemd/units"
+
+  # MQTT topics to D-Bus method calls
+  # Messages received on these topics trigger D-Bus method calls
+  mqtt_to_dbus:
+    # Example: Control systemd units via MQTT
+    # - topic: "dbus/systemd/control"
+    #   service: "org.freedesktop.systemd1"
+    #   path: "/org/freedesktop/systemd1"
+    #   interface: "org.freedesktop.systemd1.Manager"
+    #   method: "StartUnit"
+    
+    # Example: Send custom D-Bus method call
+    # - topic: "dbus/custom/action"
+    #   service: "com.example.MyService"
+    #   path: "/com/example/MyObject"
+    #   interface: "com.example.MyInterface"
+    #   method: "DoSomething"
+
+# SECURITY WARNING:
+# After editing this configuration, you MUST also update the D-Bus policy file:
+#   /etc/dbus-1/system.d/dbus-mqtt-bridge.conf
+#
+# The D-Bus policy controls which services/interfaces/methods the bridge
+# can access. Without proper policy configuration, the bridge will not be
+# able to interact with D-Bus services.
+#
+# See /usr/share/doc/dbus-mqtt-bridge/examples/dbus-policy.conf for examples.

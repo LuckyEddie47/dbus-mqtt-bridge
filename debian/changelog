@@ -1,0 +1,16 @@
+dbus-mqtt-bridge (0.1.0-2) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+  * Features:
+    - Bidirectional D-Bus to MQTT bridge
+    - Support for system and session bus
+    - YAML-based configuration
+    - Systemd integration with security hardening
+    - Runs as unprivileged user with D-Bus policy restrictions
+  * Security:
+    - Dedicated system user (dbus-mqtt-bridge)
+    - Comprehensive systemd hardening
+    - D-Bus policy-based access control
+    - Service disabled by default, requires configuration
+
+ -- Ed Lee <ed@example.com>  Sat, 25 Jan 2026 00:00:00 +0000

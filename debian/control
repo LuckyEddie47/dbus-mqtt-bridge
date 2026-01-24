@@ -1,0 +1,49 @@
+Source: dbus-mqtt-bridge
+Section: net
+Priority: optional
+Maintainer: Ed Lee <ed@example.com>
+Build-Depends:
+    debhelper-compat (= 13),
+    cmake (>= 3.20),
+    g++ (>= 10),
+    pkg-config,
+    libsystemd-dev,
+    libyaml-cpp-dev,
+    nlohmann-json3-dev,
+    libsdbus-c++-dev,
+    libpaho-mqtt-dev,
+    libpaho-mqttpp-dev
+Standards-Version: 4.6.0
+Homepage: https://github.com/example/dbus-mqtt-bridge
+Vcs-Browser: https://github.com/example/dbus-mqtt-bridge
+Vcs-Git: https://github.com/example/dbus-mqtt-bridge.git
+Rules-Requires-Root: no
+
+Package: dbus-mqtt-bridge
+Architecture: any
+Depends:
+    ${shlibs:Depends},
+    ${misc:Depends},
+    adduser,
+    libsystemd0,
+    libyaml-cpp0.8,
+    libsdbus-c++1,
+    libpaho-mqtt1.3,
+    libpaho-mqttpp3-1
+Recommends:
+    mosquitto | mqtt-broker
+Description: Bridge between D-Bus and MQTT
+ dbus-mqtt-bridge is a service that bidirectionally bridges D-Bus signals
+ and method calls with MQTT topics and messages. This allows D-Bus services
+ to communicate with MQTT-based systems and vice versa.
+ .
+ Features:
+  * Forward D-Bus signals to MQTT topics
+  * Trigger D-Bus method calls from MQTT messages
+  * Support for both system and session bus
+  * Configurable via YAML
+  * Runs as unprivileged system user
+  * Comprehensive systemd integration
+ .
+ This package includes the main service, configuration examples, and
+ D-Bus policy templates.

@@ -1,0 +1,144 @@
+dbus-mqtt-bridge for Debian
+============================
+
+IMPORTANT: Configuration Required Before Use
+---------------------------------------------
+
+The dbus-mqtt-bridge service is installed DISABLED by default and will not
+start until you have completed the configuration steps below.
+
+This is intentional, as the service requires proper configuration to function
+correctly and securely.
+
+
+Configuration Steps
+-------------------
+
+1. Edit the main configuration file:
+
+   sudo editor /etc/dbus-mqtt-bridge/config.yaml
+
+   At minimum, you must configure:
+   - MQTT broker address
+   - D-Bus mappings (signals to forward, methods to expose)
+
+   See /usr/share/doc/dbus-mqtt-bridge/examples/config.yaml for examples.
+
+
+2. Configure D-Bus permissions:
+
+   sudo editor /etc/dbus-1/system.d/dbus-mqtt-bridge.conf
+
+   The template installed at this location includes example policies. You MUST
+   customize it to match the D-Bus services, interfaces, and methods defined
+   in your config.yaml.
+
+   This is a critical security step. The service runs as an unprivileged user
+   (dbus-mqtt-bridge) and can only access D-Bus services explicitly permitted
+   in this policy file.
+
+
+3. Reload D-Bus configuration:
+
+   sudo systemctl reload dbus
+
+   Or simply reboot for the policy to take effect.
+
+
+4. Enable and start the service:
+
+   sudo systemctl enable dbus-mqtt-bridge
+   sudo systemctl start dbus-mqtt-bridge
+
+
+5. Verify the service is running:
+
+   sudo systemctl status dbus-mqtt-bridge
+   sudo journalctl -u dbus-mqtt-bridge -f
+
+
+Security Considerations
+-----------------------
+
+Unprivileged User:
+  The service runs as the system user 'dbus-mqtt-bridge', not as root.
+  This limits the damage if the service is compromised.
+
+D-Bus Policy:
+  Access to D-Bus services is controlled by the policy file in
+  /etc/dbus-1/system.d/dbus-mqtt-bridge.conf. The bridge can only interact
+  with D-Bus services explicitly allowed in this file.
+
+Systemd Hardening:
+  The service unit includes extensive security hardening:
+  - Filesystem isolation (ProtectSystem, ProtectHome)
+  - System call filtering
+  - Capability restrictions
+  - Resource limits
+
+Config File Permissions:
+  The configuration file /etc/dbus-mqtt-bridge/config.yaml is only readable
+  by root and the dbus-mqtt-bridge group (mode 0640). This prevents other
+  users from reading potentially sensitive information like MQTT credentials.
+
+Network Exposure:
+  Be cautious when exposing MQTT to untrusted networks. D-Bus signals and
+  method calls may contain sensitive system information. Consider:
+  - Using MQTT authentication (configure in config.yaml)
+  - Using TLS for MQTT connections (requires broker support)
+  - Restricting MQTT broker access via firewall
+  - Carefully reviewing which D-Bus services are exposed
+
+
+Running as Root (Not Recommended)
+----------------------------------
+
+While not recommended, you can run the service as root by editing the
+systemd unit:
+
+  sudo systemctl edit dbus-mqtt-bridge
+
+And adding:
+
+  [Service]
+  User=root
+  Group=root
+
+However, this significantly increases security risk and is strongly
+discouraged. The D-Bus policy mechanism provides sufficient access control
+for nearly all use cases.
+
+
+Troubleshooting
+---------------
+
+Service won't start:
+  - Check configuration: journalctl -u dbus-mqtt-bridge
+  - Validate config syntax: dbus-mqtt-bridge --help
+  - Verify D-Bus policy is correct
+
+Permission denied errors:
+  - Check D-Bus policy: /etc/dbus-1/system.d/dbus-mqtt-bridge.conf
+  - Verify policy allows required services/interfaces/methods
+  - Reload D-Bus: sudo systemctl reload dbus
+
+MQTT connection failures:
+  - Verify MQTT broker is running: systemctl status mosquitto
+  - Check broker address and port in config.yaml
+  - Test MQTT connection: mosquitto_pub/mosquitto_sub
+
+
+Further Information
+-------------------
+
+Manual page:
+  man dbus-mqtt-bridge
+
+Configuration examples:
+  /usr/share/doc/dbus-mqtt-bridge/examples/
+
+Online documentation:
+  https://github.com/example/dbus-mqtt-bridge
+
+
+ -- Ed Lee <ed@example.com>  Sat, 25 Jan 2026 00:00:00 +0000
