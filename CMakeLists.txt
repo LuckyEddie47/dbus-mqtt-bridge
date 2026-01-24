@@ -115,8 +115,6 @@ endif()
 # Installation
 install(TARGETS ${PROJECT_NAME} DESTINATION ${CMAKE_INSTALL_BINDIR})
 install(FILES dbus-mqtt-bridge.service DESTINATION ${CMAKE_INSTALL_LIBDIR}/systemd/system)
-# Install man page if present
-install(FILES debian/dbus-mqtt-bridge.1.gz DESTINATION share/man/man1 OPTIONAL)
 
 # Simulators (optional for PPA, but keeping for local dev)
 if(NOT USE_SYSTEM_LIBS)
