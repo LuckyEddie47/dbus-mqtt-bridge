@@ -1,0 +1,7 @@
+mqtt:
+  broker: "not a valid hostname!"
+  port: 1883
+bus_type: system
+mappings:
+  dbus_to_mqtt: []
+  mqtt_to_dbus: []

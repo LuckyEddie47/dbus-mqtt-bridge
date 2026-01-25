@@ -1,0 +1,12 @@
+mqtt:
+  broker: localhost
+  port: 1883
+bus_type: system
+mappings:
+  dbus_to_mqtt: []
+  mqtt_to_dbus:
+    - topic: "test/+/sensor/#"
+      service: "org.example.Service"
+      path: "/test"
+      interface: "org.example.Test"
+      method: "HandleSensor"

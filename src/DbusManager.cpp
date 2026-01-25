@@ -1,5 +1,5 @@
-#include "DbusManager.hpp"
-#include "TypeUtils.hpp"
+#include "DbusManager.h"
+#include "TypeUtils.h"
 #include <iostream>
 
 DbusManager::DbusManager(const std::vector<DbusToMqttMapping>& signalMappings, const std::string& busType)

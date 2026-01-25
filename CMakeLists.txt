@@ -4,61 +4,54 @@ project(dbus-mqtt-bridge VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Use system libraries (proper Debian packaging)
+# Find required packages
 find_package(PkgConfig REQUIRED)
-
-# 1. nlohmann_json - system package
-find_package(nlohmann_json 3.0 REQUIRED)
-
-# 2. yaml-cpp - system package
-find_package(yaml-cpp REQUIRED)
-
-# 3. sdbus-c++ - system package
-pkg_check_modules(SDBUS REQUIRED IMPORTED_TARGET sdbus-c++)
-
-# 4. libsystemd - system package (required by sdbus-c++)
-pkg_check_modules(SYSTEMD REQUIRED IMPORTED_TARGET libsystemd)
-
-# 5. Paho MQTT - use CMake config files
 find_package(eclipse-paho-mqtt-c REQUIRED)
 find_package(PahoMqttCpp REQUIRED)
+find_package(yaml-cpp REQUIRED)
+find_package(nlohmann_json 3.0 REQUIRED)
 
-# Main Executable
-add_executable(${PROJECT_NAME} src/main.cpp src/Config.cpp src/DbusManager.cpp src/MqttManager.cpp src/Bridge.cpp)
-target_include_directories(${PROJECT_NAME} PRIVATE include)
-target_link_libraries(${PROJECT_NAME} 
-    PRIVATE 
-        PkgConfig::SDBUS
-        PahoMqttCpp::paho-mqttpp3
-        yaml-cpp
-        nlohmann_json::nlohmann_json
+pkg_check_modules(SDBUS_CPP REQUIRED IMPORTED_TARGET sdbus-c++)
+
+# Include directories
+include_directories(${CMAKE_SOURCE_DIR}/include)
+
+# Main executable
+add_executable(dbus-mqtt-bridge
+    src/main.cpp
+    src/Config.cpp
+    src/ConfigValidator.cpp
+    src/Bridge.cpp
+    src/DbusManager.cpp
+    src/MqttManager.cpp
 )
 
-# Installation rules
-include(GNUInstallDirs)
-
-# Install main executable
-install(TARGETS ${PROJECT_NAME}
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+# Link libraries
+target_link_libraries(dbus-mqtt-bridge
+    PkgConfig::SDBUS_CPP
+    paho-mqttpp3
+    paho-mqtt3as
+    yaml-cpp
+    nlohmann_json::nlohmann_json
 )
+
+# Install targets
+install(TARGETS dbus-mqtt-bridge DESTINATION bin)
 
 # Install systemd service file
-install(FILES dbus-mqtt-bridge.service
-    DESTINATION ${CMAKE_INSTALL_PREFIX}/lib/systemd/system
-)
+install(FILES ${CMAKE_SOURCE_DIR}/dbus-mqtt-bridge.service 
+        DESTINATION lib/systemd/system)
 
-# Install example configuration
-install(FILES examples/config.yaml
-    DESTINATION ${CMAKE_INSTALL_DOCDIR}/examples
-)
+# Install example config
+install(FILES ${CMAKE_SOURCE_DIR}/examples/config.yaml 
+        DESTINATION share/doc/dbus-mqtt-bridge/examples)
 
-# Install example D-Bus policy
-install(FILES examples/dbus-policy.conf
-    DESTINATION ${CMAKE_INSTALL_DOCDIR}/examples
-)
+# Install D-Bus policy example
+install(FILES ${CMAKE_SOURCE_DIR}/examples/dbus-policy.conf 
+        DESTINATION share/doc/dbus-mqtt-bridge/examples)
 
 # Install documentation
-install(FILES README.md LICENSE
-    DESTINATION ${CMAKE_INSTALL_DOCDIR}
-    OPTIONAL
-)
+install(FILES 
+        ${CMAKE_SOURCE_DIR}/README.md 
+        ${CMAKE_SOURCE_DIR}/LICENSE 
+        DESTINATION share/doc/dbus-mqtt-bridge)

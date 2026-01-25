@@ -1,7 +1,7 @@
 CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o: \
  /home/ed/Data/Code/dbus-mqtt-bridge/src/MqttManager.cpp \
  /usr/include/stdc-predef.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/MqttManager.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/MqttManager.h \
  /usr/include/mqtt/async_client.h /usr/include/MQTTAsync.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -280,4 +280,5 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o: \
  /usr/include/c++/13/bits/hashtable_policy.h \
  /usr/include/mqtt/disconnect_options.h /usr/include/c++/13/list \
  /usr/include/c++/13/bits/stl_list.h /usr/include/c++/13/bits/list.tcc \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.hpp
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/ConfigValidator.h

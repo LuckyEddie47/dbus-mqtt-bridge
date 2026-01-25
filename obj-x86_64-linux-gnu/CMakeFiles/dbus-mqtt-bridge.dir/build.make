@@ -100,10 +100,38 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ed/Data/Code/dbus-mqtt-bridge/src/Config.cpp -o CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.s
 
+CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/flags.make
+CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o: /home/ed/Data/Code/dbus-mqtt-bridge/src/ConfigValidator.cpp
+CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o -MF CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o.d -o CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o -c /home/ed/Data/Code/dbus-mqtt-bridge/src/ConfigValidator.cpp
+
+CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ed/Data/Code/dbus-mqtt-bridge/src/ConfigValidator.cpp > CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.i
+
+CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ed/Data/Code/dbus-mqtt-bridge/src/ConfigValidator.cpp -o CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.s
+
+CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/flags.make
+CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp
+CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o -MF CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o.d -o CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o -c /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp
+
+CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp > CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.i
+
+CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp -o CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.s
+
 CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/flags.make
 CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o: /home/ed/Data/Code/dbus-mqtt-bridge/src/DbusManager.cpp
 CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o -MF CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o.d -o CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o -c /home/ed/Data/Code/dbus-mqtt-bridge/src/DbusManager.cpp
 
 CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.i: cmake_force
@@ -117,7 +145,7 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.s: cmake_force
 CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/flags.make
 CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o: /home/ed/Data/Code/dbus-mqtt-bridge/src/MqttManager.cpp
 CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o -MF CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o.d -o CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o -c /home/ed/Data/Code/dbus-mqtt-bridge/src/MqttManager.cpp
 
 CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.i: cmake_force
@@ -128,45 +156,29 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ed/Data/Code/dbus-mqtt-bridge/src/MqttManager.cpp -o CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.s
 
-CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/flags.make
-CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp
-CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: CMakeFiles/dbus-mqtt-bridge.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o -MF CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o.d -o CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o -c /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp
-
-CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp > CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.i
-
-CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp -o CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.s
-
 # Object files for target dbus-mqtt-bridge
 dbus__mqtt__bridge_OBJECTS = \
 "CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o" \
 "CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.o" \
+"CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o" \
+"CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o" \
 "CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o" \
-"CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o" \
-"CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o"
+"CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o"
 
 # External object files for target dbus-mqtt-bridge
 dbus__mqtt__bridge_EXTERNAL_OBJECTS =
 
 dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o
 dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.o
+dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o
+dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o
 dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o
 dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/src/MqttManager.cpp.o
-dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o
 dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/build.make
-dbus-mqtt-bridge: /usr/lib/x86_64-linux-gnu/libpaho-mqttpp3.so.1.2.0
 dbus-mqtt-bridge: /usr/lib/x86_64-linux-gnu/libsdbus-c++.so
 dbus-mqtt-bridge: /usr/lib/x86_64-linux-gnu/libsystemd.so
-dbus-mqtt-bridge: /usr/lib/x86_64-linux-gnu/libpaho-mqtt3as.so
-dbus-mqtt-bridge: /usr/lib/x86_64-linux-gnu/libssl.so
-dbus-mqtt-bridge: /usr/lib/x86_64-linux-gnu/libcrypto.so
 dbus-mqtt-bridge: CMakeFiles/dbus-mqtt-bridge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable dbus-mqtt-bridge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable dbus-mqtt-bridge"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dbus-mqtt-bridge.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

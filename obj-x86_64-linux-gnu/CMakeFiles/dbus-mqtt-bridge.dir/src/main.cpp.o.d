@@ -162,46 +162,15 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.hpp \
- /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_uninitialized.h \
- /usr/include/c++/13/bits/stl_vector.h \
- /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/optional \
- /usr/include/c++/13/bits/enable_special_members.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/Bridge.hpp \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/DbusManager.hpp \
- /usr/include/sdbus-c++/sdbus-c++.h /usr/include/sdbus-c++/IConnection.h \
- /usr/include/sdbus-c++/TypeTraits.h /usr/include/c++/13/array \
- /usr/include/c++/13/span /usr/include/c++/13/map \
- /usr/include/c++/13/bits/stl_tree.h \
- /usr/include/c++/13/ext/aligned_buffer.h \
- /usr/include/c++/13/bits/node_handle.h \
- /usr/include/c++/13/bits/stl_map.h \
- /usr/include/c++/13/bits/stl_multimap.h \
- /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/unordered_map \
- /usr/include/c++/13/bits/unordered_map.h \
- /usr/include/c++/13/bits/hashtable.h \
- /usr/include/c++/13/bits/hashtable_policy.h /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/bits/istream.tcc /usr/include/c++/13/thread \
+ /usr/include/c++/13/stop_token /usr/include/c++/13/atomic \
+ /usr/include/c++/13/bits/atomic_base.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
- /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
- /usr/include/c++/13/bits/stl_algo.h \
- /usr/include/c++/13/bits/algorithmfwd.h \
- /usr/include/c++/13/bits/stl_heap.h \
- /usr/include/c++/13/bits/uniform_int_dist.h \
- /usr/include/c++/13/bits/stl_tempbuf.h /usr/include/c++/13/memory \
- /usr/include/c++/13/bits/stl_raw_storage_iter.h \
- /usr/include/c++/13/bits/align.h /usr/include/c++/13/bits/unique_ptr.h \
- /usr/include/c++/13/bits/shared_ptr.h \
- /usr/include/c++/13/bits/shared_ptr_base.h \
- /usr/include/c++/13/bits/allocated_ptr.h \
- /usr/include/c++/13/ext/concurrence.h \
- /usr/include/c++/13/bits/shared_ptr_atomic.h \
- /usr/include/c++/13/bits/atomic_base.h \
  /usr/include/c++/13/bits/atomic_lockfree_defines.h \
- /usr/include/c++/13/bits/atomic_wait.h /usr/include/c++/13/climits \
+ /usr/include/c++/13/bits/atomic_wait.h /usr/include/c++/13/cstdint \
+ /usr/include/c++/13/climits \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/syslimits.h \
  /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
@@ -224,15 +193,31 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
  /usr/include/x86_64-linux-gnu/bits/syscall.h \
  /usr/include/c++/13/bits/std_mutex.h \
- /usr/include/c++/13/backward/auto_ptr.h \
- /usr/include/c++/13/bits/ranges_uninitialized.h \
- /usr/include/c++/13/bits/ranges_algobase.h \
- /usr/include/c++/13/pstl/glue_memory_defs.h \
- /usr/include/c++/13/pstl/execution_defs.h /usr/include/c++/13/chrono \
+ /usr/include/c++/13/bits/std_thread.h \
+ /usr/include/c++/13/bits/unique_ptr.h /usr/include/c++/13/semaphore \
+ /usr/include/c++/13/bits/semaphore_base.h \
  /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
  /usr/include/c++/13/limits /usr/include/c++/13/ctime \
- /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/sstream \
- /usr/include/c++/13/bits/sstream.tcc \
+ /usr/include/c++/13/bits/parse_numbers.h \
+ /usr/include/c++/13/bits/atomic_timed_wait.h \
+ /usr/include/c++/13/bits/this_thread_sleep.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/include/c++/13/chrono /usr/include/c++/13/sstream \
+ /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/vector \
+ /usr/include/c++/13/bits/stl_uninitialized.h \
+ /usr/include/c++/13/bits/stl_vector.h \
+ /usr/include/c++/13/bits/stl_bvector.h \
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/bits/stl_algo.h \
+ /usr/include/c++/13/bits/algorithmfwd.h \
+ /usr/include/c++/13/bits/stl_heap.h \
+ /usr/include/c++/13/bits/uniform_int_dist.h \
+ /usr/include/c++/13/bits/stl_tempbuf.h \
+ /usr/include/c++/13/bits/shared_ptr.h \
+ /usr/include/c++/13/bits/shared_ptr_base.h \
+ /usr/include/c++/13/bits/allocated_ptr.h \
+ /usr/include/c++/13/ext/aligned_buffer.h \
+ /usr/include/c++/13/ext/concurrence.h /usr/include/c++/13/bits/align.h \
  /usr/include/c++/13/bits/chrono_io.h /usr/include/c++/13/iomanip \
  /usr/include/c++/13/locale \
  /usr/include/c++/13/bits/locale_facets_nonio.h \
@@ -242,7 +227,55 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets_nonio.tcc \
  /usr/include/c++/13/bits/locale_conv.h \
  /usr/include/c++/13/bits/quoted_string.h /usr/include/c++/13/format \
- /usr/include/c++/13/charconv /usr/include/c++/13/variant \
+ /usr/include/c++/13/array /usr/include/c++/13/charconv \
+ /usr/include/c++/13/optional \
+ /usr/include/c++/13/bits/enable_special_members.h \
+ /usr/include/c++/13/span /usr/include/c++/13/variant \
+ /usr/include/c++/13/bits/ranges_algobase.h /usr/include/c++/13/csignal \
+ /usr/include/signal.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+ /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+ /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+ /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+ /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+ /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+ /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+ /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+ /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+ /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/ConfigValidator.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/Bridge.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/DbusManager.h \
+ /usr/include/sdbus-c++/sdbus-c++.h /usr/include/sdbus-c++/IConnection.h \
+ /usr/include/sdbus-c++/TypeTraits.h /usr/include/c++/13/map \
+ /usr/include/c++/13/bits/stl_tree.h \
+ /usr/include/c++/13/bits/node_handle.h \
+ /usr/include/c++/13/bits/stl_map.h \
+ /usr/include/c++/13/bits/stl_multimap.h \
+ /usr/include/c++/13/bits/erase_if.h /usr/include/c++/13/unordered_map \
+ /usr/include/c++/13/bits/unordered_map.h \
+ /usr/include/c++/13/bits/hashtable.h \
+ /usr/include/c++/13/bits/hashtable_policy.h \
+ /usr/include/c++/13/functional /usr/include/c++/13/bits/std_function.h \
+ /usr/include/c++/13/memory \
+ /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/13/bits/shared_ptr_atomic.h \
+ /usr/include/c++/13/backward/auto_ptr.h \
+ /usr/include/c++/13/bits/ranges_uninitialized.h \
+ /usr/include/c++/13/pstl/glue_memory_defs.h \
+ /usr/include/c++/13/pstl/execution_defs.h \
  /usr/include/sdbus-c++/IObject.h \
  /usr/include/sdbus-c++/ConvenienceApiClasses.h \
  /usr/include/sdbus-c++/Message.h /usr/include/sdbus-c++/Error.h \
@@ -251,20 +284,14 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o: \
  /usr/include/sdbus-c++/Types.h /usr/include/sdbus-c++/Flags.h \
  /usr/include/c++/13/bitset /usr/include/c++/13/future \
  /usr/include/c++/13/mutex /usr/include/c++/13/bits/unique_lock.h \
- /usr/include/c++/13/condition_variable /usr/include/c++/13/stop_token \
- /usr/include/c++/13/atomic /usr/include/c++/13/bits/std_thread.h \
- /usr/include/c++/13/semaphore /usr/include/c++/13/bits/semaphore_base.h \
- /usr/include/c++/13/bits/atomic_timed_wait.h \
- /usr/include/c++/13/bits/this_thread_sleep.h \
- /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
- /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+ /usr/include/c++/13/condition_variable \
  /usr/include/c++/13/bits/atomic_futex.h \
  /usr/include/sdbus-c++/ConvenienceApiClasses.inl \
  /usr/include/sdbus-c++/IProxy.h /usr/include/sdbus-c++/MethodResult.h \
  /usr/include/sdbus-c++/AdaptorInterfaces.h \
  /usr/include/sdbus-c++/ProxyInterfaces.h \
  /usr/include/sdbus-c++/StandardInterfaces.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/MqttManager.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/MqttManager.h \
  /usr/include/mqtt/async_client.h /usr/include/MQTTAsync.h \
  /usr/include/MQTTExportDeclarations.h /usr/include/MQTTProperties.h \
  /usr/include/MQTTReasonCodes.h /usr/include/MQTTSubscribeOpts.h \
@@ -276,14 +303,14 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
  /usr/include/mqtt/string_collection.h \
- /usr/include/mqtt/server_response.h /usr/include/c++/13/thread \
- /usr/include/mqtt/create_options.h /usr/include/mqtt/delivery_token.h \
- /usr/include/mqtt/message.h /usr/include/mqtt/iclient_persistence.h \
- /usr/include/mqtt/buffer_view.h /usr/include/mqtt/callback.h \
- /usr/include/mqtt/thread_queue.h /usr/include/c++/13/deque \
- /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
- /usr/include/c++/13/queue /usr/include/c++/13/bits/stl_queue.h \
- /usr/include/c++/13/algorithm /usr/include/c++/13/bits/ranges_algo.h \
+ /usr/include/mqtt/server_response.h /usr/include/mqtt/create_options.h \
+ /usr/include/mqtt/delivery_token.h /usr/include/mqtt/message.h \
+ /usr/include/mqtt/iclient_persistence.h /usr/include/mqtt/buffer_view.h \
+ /usr/include/mqtt/callback.h /usr/include/mqtt/thread_queue.h \
+ /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
+ /usr/include/c++/13/bits/deque.tcc /usr/include/c++/13/queue \
+ /usr/include/c++/13/bits/stl_queue.h /usr/include/c++/13/algorithm \
+ /usr/include/c++/13/bits/ranges_algo.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \
  /usr/include/mqtt/iasync_client.h /usr/include/mqtt/connect_options.h \
  /usr/include/mqtt/topic.h /usr/include/mqtt/subscribe_options.h \

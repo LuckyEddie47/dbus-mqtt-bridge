@@ -1,4 +1,7 @@
-#include "MqttManager.hpp"
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 Ed Lee
+
+#include "MqttManager.h"
 #include <iostream>
 
 MqttManager::MqttManager(const MqttConfig& config, const std::vector<MqttToDbusMapping>& mappings)
@@ -19,9 +22,9 @@ MqttManager::~MqttManager() {
 
 void MqttManager::connect() {
     mqtt::connect_options connOpts;
-    if (config_.username && config_.password) {
-        connOpts.set_user_name(*config_.username);
-        connOpts.set_password(*config_.password);
+    if (!config_.username.empty() && !config_.password.empty()) {
+        connOpts.set_user_name(config_.username);
+        connOpts.set_password(config_.password);
     }
     connOpts.set_clean_session(true);
 

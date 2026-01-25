@@ -1,5 +1,5 @@
-#include "Bridge.hpp"
-#include "TypeUtils.hpp"
+#include "Bridge.h"
+#include "TypeUtils.h"
 #include <iostream>
 
 Bridge::Bridge(const Config& config)

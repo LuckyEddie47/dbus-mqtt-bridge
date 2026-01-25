@@ -1,0 +1,12 @@
+mqtt:
+  broker: localhost
+  port: 1883
+bus_type: system
+mappings:
+  dbus_to_mqtt:
+    - service: "org.example.Service"
+      path: "/test"
+      interface: "org.example.Test"
+      signal: "Signal"
+      topic: "test/#"
+  mqtt_to_dbus: []

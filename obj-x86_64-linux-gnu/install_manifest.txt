@@ -3,3 +3,4 @@
 /usr/share/doc/dbus-mqtt-bridge/examples/config.yaml
 /usr/share/doc/dbus-mqtt-bridge/examples/dbus-policy.conf
 /usr/share/doc/dbus-mqtt-bridge/README.md
+/usr/share/doc/dbus-mqtt-bridge/LICENSE

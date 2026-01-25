@@ -59,15 +59,11 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/usr/lib/systemd/system/dbus-mqtt-bridge.service")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  file(INSTALL DESTINATION "/usr/lib/systemd/system" TYPE FILE FILES "/home/ed/Data/Code/dbus-mqtt-bridge/dbus-mqtt-bridge.service")
+  include("/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/CMakeFiles/dbus-mqtt-bridge.dir/install-cxx-module-bmi-RelWithDebInfo.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/systemd/system" TYPE FILE FILES "/home/ed/Data/Code/dbus-mqtt-bridge/dbus-mqtt-bridge.service")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,7 +75,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/dbus-mqtt-bridge" TYPE FILE OPTIONAL FILES
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doc/dbus-mqtt-bridge" TYPE FILE FILES
     "/home/ed/Data/Code/dbus-mqtt-bridge/README.md"
     "/home/ed/Data/Code/dbus-mqtt-bridge/LICENSE"
     )

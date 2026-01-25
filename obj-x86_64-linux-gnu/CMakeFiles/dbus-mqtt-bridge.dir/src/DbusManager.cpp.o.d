@@ -1,7 +1,7 @@
 CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o: \
  /home/ed/Data/Code/dbus-mqtt-bridge/src/DbusManager.cpp \
  /usr/include/stdc-predef.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/DbusManager.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/DbusManager.h \
  /usr/include/sdbus-c++/sdbus-c++.h /usr/include/sdbus-c++/IConnection.h \
  /usr/include/sdbus-c++/TypeTraits.h /usr/include/c++/13/type_traits \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
@@ -264,8 +264,9 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.o: \
  /usr/include/sdbus-c++/AdaptorInterfaces.h \
  /usr/include/sdbus-c++/ProxyInterfaces.h \
  /usr/include/sdbus-c++/StandardInterfaces.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.hpp \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/TypeUtils.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/ConfigValidator.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/TypeUtils.h \
  /usr/include/nlohmann/json.hpp /usr/include/c++/13/algorithm \
  /usr/include/c++/13/bits/ranges_algo.h \
  /usr/include/c++/13/pstl/glue_algorithm_defs.h \

@@ -1,8 +1,8 @@
 CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: \
  /home/ed/Data/Code/dbus-mqtt-bridge/src/Bridge.cpp \
  /usr/include/stdc-predef.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/Bridge.hpp \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/Bridge.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -134,12 +134,14 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/optional \
- /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/ConfigValidator.h \
+ /usr/include/c++/13/optional /usr/include/c++/13/exception \
+ /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h \
  /usr/include/c++/13/bits/enable_special_members.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/DbusManager.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/DbusManager.h \
  /usr/include/sdbus-c++/sdbus-c++.h /usr/include/sdbus-c++/IConnection.h \
  /usr/include/sdbus-c++/TypeTraits.h /usr/include/c++/13/array \
  /usr/include/c++/13/span /usr/include/c++/13/map \
@@ -266,7 +268,7 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: \
  /usr/include/sdbus-c++/AdaptorInterfaces.h \
  /usr/include/sdbus-c++/ProxyInterfaces.h \
  /usr/include/sdbus-c++/StandardInterfaces.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/MqttManager.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/MqttManager.h \
  /usr/include/mqtt/async_client.h /usr/include/MQTTAsync.h \
  /usr/include/MQTTExportDeclarations.h /usr/include/MQTTProperties.h \
  /usr/include/MQTTReasonCodes.h /usr/include/MQTTSubscribeOpts.h \
@@ -379,4 +381,4 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.o: \
  /usr/include/nlohmann/ordered_map.hpp /usr/include/c++/13/any \
  /usr/include/nlohmann/detail/macro_unscope.hpp \
  /usr/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/TypeUtils.hpp
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/TypeUtils.h

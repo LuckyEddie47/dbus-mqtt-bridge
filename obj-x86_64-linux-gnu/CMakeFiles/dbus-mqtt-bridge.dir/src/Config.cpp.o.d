@@ -1,7 +1,7 @@
 CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.o: \
  /home/ed/Data/Code/dbus-mqtt-bridge/src/Config.cpp \
  /usr/include/stdc-predef.h \
- /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.hpp \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -133,8 +133,10 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.o: \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/optional \
- /usr/include/c++/13/exception /usr/include/c++/13/bits/exception_ptr.h \
+ /usr/include/c++/13/bits/vector.tcc \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/ConfigValidator.h \
+ /usr/include/c++/13/optional /usr/include/c++/13/exception \
+ /usr/include/c++/13/bits/exception_ptr.h \
  /usr/include/c++/13/bits/cxxabi_init_exception.h \
  /usr/include/c++/13/typeinfo /usr/include/c++/13/bits/nested_exception.h \
  /usr/include/c++/13/bits/enable_special_members.h \

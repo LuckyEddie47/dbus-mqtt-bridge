@@ -225,6 +225,30 @@ src/Config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.s
 .PHONY : src/Config.cpp.s
 
+src/ConfigValidator.o: src/ConfigValidator.cpp.o
+.PHONY : src/ConfigValidator.o
+
+# target to build an object file
+src/ConfigValidator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.o
+.PHONY : src/ConfigValidator.cpp.o
+
+src/ConfigValidator.i: src/ConfigValidator.cpp.i
+.PHONY : src/ConfigValidator.i
+
+# target to preprocess a source file
+src/ConfigValidator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.i
+.PHONY : src/ConfigValidator.cpp.i
+
+src/ConfigValidator.s: src/ConfigValidator.cpp.s
+.PHONY : src/ConfigValidator.s
+
+# target to generate assembly for a file
+src/ConfigValidator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.s
+.PHONY : src/ConfigValidator.cpp.s
+
 src/DbusManager.o: src/DbusManager.cpp.o
 .PHONY : src/DbusManager.o
 
@@ -316,6 +340,9 @@ help:
 	@echo "... src/Config.o"
 	@echo "... src/Config.i"
 	@echo "... src/Config.s"
+	@echo "... src/ConfigValidator.o"
+	@echo "... src/ConfigValidator.i"
+	@echo "... src/ConfigValidator.s"
 	@echo "... src/DbusManager.o"
 	@echo "... src/DbusManager.i"
 	@echo "... src/DbusManager.s"
