@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/home/ed/Data/Code/dbus-mqtt-bridge/CMakeLists.txt"
+  "/home/ed/Data/Code/dbus-mqtt-bridge/include/Version.h.in"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/PahoMqttCpp/FindPahoMqttC.cmake"
@@ -122,6 +123,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
+  "include/Version.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

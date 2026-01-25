@@ -201,6 +201,30 @@ src/Bridge.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/Bridge.cpp.s
 .PHONY : src/Bridge.cpp.s
 
+src/CLI.o: src/CLI.cpp.o
+.PHONY : src/CLI.o
+
+# target to build an object file
+src/CLI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/CLI.cpp.o
+.PHONY : src/CLI.cpp.o
+
+src/CLI.i: src/CLI.cpp.i
+.PHONY : src/CLI.i
+
+# target to preprocess a source file
+src/CLI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/CLI.cpp.i
+.PHONY : src/CLI.cpp.i
+
+src/CLI.s: src/CLI.cpp.s
+.PHONY : src/CLI.s
+
+# target to generate assembly for a file
+src/CLI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/CLI.cpp.s
+.PHONY : src/CLI.cpp.s
+
 src/Config.o: src/Config.cpp.o
 .PHONY : src/Config.o
 
@@ -224,6 +248,30 @@ src/Config.s: src/Config.cpp.s
 src/Config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.s
 .PHONY : src/Config.cpp.s
+
+src/ConfigSearch.o: src/ConfigSearch.cpp.o
+.PHONY : src/ConfigSearch.o
+
+# target to build an object file
+src/ConfigSearch.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigSearch.cpp.o
+.PHONY : src/ConfigSearch.cpp.o
+
+src/ConfigSearch.i: src/ConfigSearch.cpp.i
+.PHONY : src/ConfigSearch.i
+
+# target to preprocess a source file
+src/ConfigSearch.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigSearch.cpp.i
+.PHONY : src/ConfigSearch.cpp.i
+
+src/ConfigSearch.s: src/ConfigSearch.cpp.s
+.PHONY : src/ConfigSearch.s
+
+# target to generate assembly for a file
+src/ConfigSearch.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigSearch.cpp.s
+.PHONY : src/ConfigSearch.cpp.s
 
 src/ConfigValidator.o: src/ConfigValidator.cpp.o
 .PHONY : src/ConfigValidator.o
@@ -337,9 +385,15 @@ help:
 	@echo "... src/Bridge.o"
 	@echo "... src/Bridge.i"
 	@echo "... src/Bridge.s"
+	@echo "... src/CLI.o"
+	@echo "... src/CLI.i"
+	@echo "... src/CLI.s"
 	@echo "... src/Config.o"
 	@echo "... src/Config.i"
 	@echo "... src/Config.s"
+	@echo "... src/ConfigSearch.o"
+	@echo "... src/ConfigSearch.i"
+	@echo "... src/ConfigSearch.s"
 	@echo "... src/ConfigValidator.o"
 	@echo "... src/ConfigValidator.i"
 	@echo "... src/ConfigValidator.s"

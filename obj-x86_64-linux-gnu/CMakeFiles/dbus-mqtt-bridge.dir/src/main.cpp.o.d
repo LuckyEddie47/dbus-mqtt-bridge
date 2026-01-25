@@ -254,6 +254,8 @@ CMakeFiles/dbus-mqtt-bridge.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/CLI.h \
+ /home/ed/Data/Code/dbus-mqtt-bridge/include/ConfigSearch.h \
  /home/ed/Data/Code/dbus-mqtt-bridge/include/Config.h \
  /home/ed/Data/Code/dbus-mqtt-bridge/include/ConfigValidator.h \
  /home/ed/Data/Code/dbus-mqtt-bridge/include/Bridge.h \

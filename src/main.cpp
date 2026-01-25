@@ -6,6 +6,8 @@
 #include <chrono>
 #include <csignal>
 #include <atomic>
+#include "CLI.h"
+#include "ConfigSearch.h"
 #include "Config.h"
 #include "ConfigValidator.h"
 #include "Bridge.h"
@@ -18,14 +20,28 @@ void signalHandler(int signal) {
 }
 
 int main(int argc, char** argv) {
-    std::string configFile = "config.yaml";
-    if (argc > 1) {
-        configFile = argv[1];
+    // Parse CLI arguments (handles --help, --version)
+    int result = CLI::parseArguments(argc, argv);
+    if (result != 0) {
+        return result == 1 ? 0 : 1;  // 1=success, -1=error
+    }
+    
+    // Find config file
+    auto configPath = ConfigSearch::findConfigFile(argc, argv);
+    if (!configPath) {
+        std::cerr << "Error: No configuration file found." << std::endl;
+        std::cerr << "\nSearched locations:" << std::endl;
+        for (const auto& path : ConfigSearch::getSearchPath()) {
+            std::cerr << "  - " << path << std::endl;
+        }
+        std::cerr << "\nPlease specify a config file or create one in a default location." << std::endl;
+        std::cerr << "See 'dbus-mqtt-bridge --help' for usage." << std::endl;
+        return 1;
     }
 
     try {
-        std::cout << "Loading configuration from " << configFile << "..." << std::endl;
-        Config config = Config::loadFromFile(configFile);
+        std::cout << "Loading configuration from " << *configPath << "..." << std::endl;
+        Config config = Config::loadFromFile(*configPath);
 
         // Validate configuration
         std::cout << "Validating configuration..." << std::endl;

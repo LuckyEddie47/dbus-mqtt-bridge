@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ed/Data/Code/dbus-mqtt-bridge/include
+CXX_INCLUDES = -I/home/ed/Data/Code/dbus-mqtt-bridge/include -I/home/ed/Data/Code/dbus-mqtt-bridge/obj-x86_64-linux-gnu/include
 
 CXX_FLAGS = -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/home/ed/Data/Code/dbus-mqtt-bridge=. -flto=auto -ffat-lto-objects -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/home/ed/Data/Code/dbus-mqtt-bridge=/usr/src/dbus-mqtt-bridge-0.1.0-2 -Wall -pedantic -Wdate-time -D_FORTIFY_SOURCE=3 -O2 -g -DNDEBUG -std=gnu++20
 

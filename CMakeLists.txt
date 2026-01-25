@@ -4,6 +4,12 @@ project(dbus-mqtt-bridge VERSION 0.1.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
+# Generate version header
+configure_file(
+    "${CMAKE_SOURCE_DIR}/include/Version.h.in"
+    "${CMAKE_BINARY_DIR}/include/Version.h"
+)
+
 # Find required packages
 find_package(PkgConfig REQUIRED)
 find_package(eclipse-paho-mqtt-c REQUIRED)
@@ -15,12 +21,15 @@ pkg_check_modules(SDBUS_CPP REQUIRED IMPORTED_TARGET sdbus-c++)
 
 # Include directories
 include_directories(${CMAKE_SOURCE_DIR}/include)
+include_directories(${CMAKE_BINARY_DIR}/include)
 
 # Main executable
 add_executable(dbus-mqtt-bridge
     src/main.cpp
     src/Config.cpp
     src/ConfigValidator.cpp
+    src/ConfigSearch.cpp
+    src/CLI.cpp
     src/Bridge.cpp
     src/DbusManager.cpp
     src/MqttManager.cpp
