@@ -82,7 +82,7 @@ int ConfigGenerator::run(int argc, char** argv) {
         save_path = InteractiveSelector::promptText(
             "Enter output path (or press Enter for stdout)",
             ""
-        );
+        ).value_or("");
     }
     
     if (save_path.empty()) {
@@ -186,7 +186,7 @@ void ConfigGenerator::promptMqttBroker(Config& config) {
         std::string broker = InteractiveSelector::promptText(
             "Enter MQTT broker hostname or IP",
             current.empty() ? "localhost" : current
-        );
+        ).value_or("");
         
         if (ConfigValidator::validateMqttBroker(broker)) {
             config.mqtt.broker = broker;
@@ -204,7 +204,7 @@ void ConfigGenerator::promptMqttPort(Config& config) {
         std::string port_str = InteractiveSelector::promptText(
             "Enter MQTT port",
             std::to_string(current)
-        );
+        ).value_or("");
         
         try {
             int port = std::stoi(port_str);
@@ -223,7 +223,7 @@ void ConfigGenerator::promptMqttPort(Config& config) {
 void ConfigGenerator::promptMqttAuth(Config& config) {
     if (InteractiveSelector::promptYesNo("Enable MQTT authentication?", 
                                         !config.mqtt.username.empty())) {
-        config.mqtt.username = InteractiveSelector::promptText("Enter MQTT username", "");
+        config.mqtt.username = InteractiveSelector::promptText("Enter MQTT username", "").value_or("");
         config.mqtt.password = InteractiveSelector::promptPassword("Enter MQTT password");
     } else {
         config.mqtt.username = "";

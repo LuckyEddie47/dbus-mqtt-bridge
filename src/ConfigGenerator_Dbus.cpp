@@ -74,7 +74,8 @@ bool ConfigGenerator::promptDbusService(std::string& result, const std::string& 
             if (!on_system && !on_session) {
                 std::cout << "⚠  Warning: Service '" << input << "' not found on any bus." << std::endl;
                 if (InteractiveSelector::promptYesNo("Continue anyway?", false)) {
-                    return input;
+                    result = input;
+                    return true;
                 }
                 continue;
             }

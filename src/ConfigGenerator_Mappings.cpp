@@ -48,7 +48,7 @@ void ConfigGenerator::manageDbusToMqttMappings(Config& config) {
         if (choice->find("[a]") != std::string::npos) {
             addDbusToMqttMapping(config);
         } else if (choice->find("[e]") != std::string::npos) {
-            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to edit", "");
+            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to edit", "").value_or("");
             try {
                 size_t idx = std::stoul(idx_str) - 1;
                 if (idx < config.dbus_to_mqtt.size()) {
@@ -56,7 +56,7 @@ void ConfigGenerator::manageDbusToMqttMappings(Config& config) {
                 }
             } catch (...) {}
         } else if (choice->find("[d]") != std::string::npos) {
-            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to delete", "");
+            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to delete", "").value_or("");
             try {
                 size_t idx = std::stoul(idx_str) - 1;
                 if (idx < config.dbus_to_mqtt.size()) {
@@ -108,7 +108,7 @@ void ConfigGenerator::manageMqttToDbusMapping(Config& config) {
         if (choice->find("[a]") != std::string::npos) {
             addMqttToDbusMapping(config);
         } else if (choice->find("[e]") != std::string::npos) {
-            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to edit", "");
+            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to edit", "").value_or("");
             try {
                 size_t idx = std::stoul(idx_str) - 1;
                 if (idx < config.mqtt_to_dbus.size()) {
@@ -116,7 +116,7 @@ void ConfigGenerator::manageMqttToDbusMapping(Config& config) {
                 }
             } catch (...) {}
         } else if (choice->find("[d]") != std::string::npos) {
-            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to delete", "");
+            std::string idx_str = InteractiveSelector::promptText("Enter mapping number to delete", "").value_or("");
             try {
                 size_t idx = std::stoul(idx_str) - 1;
                 if (idx < config.mqtt_to_dbus.size()) {
