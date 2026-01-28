@@ -8,6 +8,7 @@
 #include <atomic>
 #include "CLI.h"
 #include "ConfigSearch.h"
+#include "ConfigGenerator.h"
 #include "Config.h"
 #include "ConfigValidator.h"
 #include "Bridge.h"
@@ -20,10 +21,28 @@ void signalHandler(int signal) {
 }
 
 int main(int argc, char** argv) {
-    // Parse CLI arguments (handles --help, --version)
-    int result = CLI::parseArguments(argc, argv);
-    if (result != 0) {
-        return result == 1 ? 0 : 1;  // 1=success, -1=error
+    // Parse CLI arguments
+    CLIMode mode = CLI::parseArguments(argc, argv);
+    
+    switch (mode) {
+        case CLIMode::HELP:
+            CLI::showHelp(argv[0]);
+            return 0;
+            
+        case CLIMode::VERSION:
+            CLI::showVersion();
+            return 0;
+            
+        case CLIMode::GENERATE_CONFIG:
+            return ConfigGenerator::run(argc, argv);
+            
+        case CLIMode::ERROR:
+            CLI::showHelp(argv[0]);
+            return 1;
+            
+        case CLIMode::RUN_BRIDGE:
+            // Continue with normal bridge operation
+            break;
     }
     
     // Find config file

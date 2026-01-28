@@ -249,6 +249,102 @@ src/Config.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/Config.cpp.s
 .PHONY : src/Config.cpp.s
 
+src/ConfigGenerator.o: src/ConfigGenerator.cpp.o
+.PHONY : src/ConfigGenerator.o
+
+# target to build an object file
+src/ConfigGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator.cpp.o
+.PHONY : src/ConfigGenerator.cpp.o
+
+src/ConfigGenerator.i: src/ConfigGenerator.cpp.i
+.PHONY : src/ConfigGenerator.i
+
+# target to preprocess a source file
+src/ConfigGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator.cpp.i
+.PHONY : src/ConfigGenerator.cpp.i
+
+src/ConfigGenerator.s: src/ConfigGenerator.cpp.s
+.PHONY : src/ConfigGenerator.s
+
+# target to generate assembly for a file
+src/ConfigGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator.cpp.s
+.PHONY : src/ConfigGenerator.cpp.s
+
+src/ConfigGenerator_Dbus.o: src/ConfigGenerator_Dbus.cpp.o
+.PHONY : src/ConfigGenerator_Dbus.o
+
+# target to build an object file
+src/ConfigGenerator_Dbus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Dbus.cpp.o
+.PHONY : src/ConfigGenerator_Dbus.cpp.o
+
+src/ConfigGenerator_Dbus.i: src/ConfigGenerator_Dbus.cpp.i
+.PHONY : src/ConfigGenerator_Dbus.i
+
+# target to preprocess a source file
+src/ConfigGenerator_Dbus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Dbus.cpp.i
+.PHONY : src/ConfigGenerator_Dbus.cpp.i
+
+src/ConfigGenerator_Dbus.s: src/ConfigGenerator_Dbus.cpp.s
+.PHONY : src/ConfigGenerator_Dbus.s
+
+# target to generate assembly for a file
+src/ConfigGenerator_Dbus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Dbus.cpp.s
+.PHONY : src/ConfigGenerator_Dbus.cpp.s
+
+src/ConfigGenerator_Mappings.o: src/ConfigGenerator_Mappings.cpp.o
+.PHONY : src/ConfigGenerator_Mappings.o
+
+# target to build an object file
+src/ConfigGenerator_Mappings.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Mappings.cpp.o
+.PHONY : src/ConfigGenerator_Mappings.cpp.o
+
+src/ConfigGenerator_Mappings.i: src/ConfigGenerator_Mappings.cpp.i
+.PHONY : src/ConfigGenerator_Mappings.i
+
+# target to preprocess a source file
+src/ConfigGenerator_Mappings.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Mappings.cpp.i
+.PHONY : src/ConfigGenerator_Mappings.cpp.i
+
+src/ConfigGenerator_Mappings.s: src/ConfigGenerator_Mappings.cpp.s
+.PHONY : src/ConfigGenerator_Mappings.s
+
+# target to generate assembly for a file
+src/ConfigGenerator_Mappings.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Mappings.cpp.s
+.PHONY : src/ConfigGenerator_Mappings.cpp.s
+
+src/ConfigGenerator_Utils.o: src/ConfigGenerator_Utils.cpp.o
+.PHONY : src/ConfigGenerator_Utils.o
+
+# target to build an object file
+src/ConfigGenerator_Utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Utils.cpp.o
+.PHONY : src/ConfigGenerator_Utils.cpp.o
+
+src/ConfigGenerator_Utils.i: src/ConfigGenerator_Utils.cpp.i
+.PHONY : src/ConfigGenerator_Utils.i
+
+# target to preprocess a source file
+src/ConfigGenerator_Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Utils.cpp.i
+.PHONY : src/ConfigGenerator_Utils.cpp.i
+
+src/ConfigGenerator_Utils.s: src/ConfigGenerator_Utils.cpp.s
+.PHONY : src/ConfigGenerator_Utils.s
+
+# target to generate assembly for a file
+src/ConfigGenerator_Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigGenerator_Utils.cpp.s
+.PHONY : src/ConfigGenerator_Utils.cpp.s
+
 src/ConfigSearch.o: src/ConfigSearch.cpp.o
 .PHONY : src/ConfigSearch.o
 
@@ -297,6 +393,30 @@ src/ConfigValidator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/ConfigValidator.cpp.s
 .PHONY : src/ConfigValidator.cpp.s
 
+src/DbusIntrospector.o: src/DbusIntrospector.cpp.o
+.PHONY : src/DbusIntrospector.o
+
+# target to build an object file
+src/DbusIntrospector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/DbusIntrospector.cpp.o
+.PHONY : src/DbusIntrospector.cpp.o
+
+src/DbusIntrospector.i: src/DbusIntrospector.cpp.i
+.PHONY : src/DbusIntrospector.i
+
+# target to preprocess a source file
+src/DbusIntrospector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/DbusIntrospector.cpp.i
+.PHONY : src/DbusIntrospector.cpp.i
+
+src/DbusIntrospector.s: src/DbusIntrospector.cpp.s
+.PHONY : src/DbusIntrospector.s
+
+# target to generate assembly for a file
+src/DbusIntrospector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/DbusIntrospector.cpp.s
+.PHONY : src/DbusIntrospector.cpp.s
+
 src/DbusManager.o: src/DbusManager.cpp.o
 .PHONY : src/DbusManager.o
 
@@ -320,6 +440,30 @@ src/DbusManager.s: src/DbusManager.cpp.s
 src/DbusManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/DbusManager.cpp.s
 .PHONY : src/DbusManager.cpp.s
+
+src/InteractiveSelector.o: src/InteractiveSelector.cpp.o
+.PHONY : src/InteractiveSelector.o
+
+# target to build an object file
+src/InteractiveSelector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/InteractiveSelector.cpp.o
+.PHONY : src/InteractiveSelector.cpp.o
+
+src/InteractiveSelector.i: src/InteractiveSelector.cpp.i
+.PHONY : src/InteractiveSelector.i
+
+# target to preprocess a source file
+src/InteractiveSelector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/InteractiveSelector.cpp.i
+.PHONY : src/InteractiveSelector.cpp.i
+
+src/InteractiveSelector.s: src/InteractiveSelector.cpp.s
+.PHONY : src/InteractiveSelector.s
+
+# target to generate assembly for a file
+src/InteractiveSelector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dbus-mqtt-bridge.dir/build.make CMakeFiles/dbus-mqtt-bridge.dir/src/InteractiveSelector.cpp.s
+.PHONY : src/InteractiveSelector.cpp.s
 
 src/MqttManager.o: src/MqttManager.cpp.o
 .PHONY : src/MqttManager.o
@@ -391,15 +535,33 @@ help:
 	@echo "... src/Config.o"
 	@echo "... src/Config.i"
 	@echo "... src/Config.s"
+	@echo "... src/ConfigGenerator.o"
+	@echo "... src/ConfigGenerator.i"
+	@echo "... src/ConfigGenerator.s"
+	@echo "... src/ConfigGenerator_Dbus.o"
+	@echo "... src/ConfigGenerator_Dbus.i"
+	@echo "... src/ConfigGenerator_Dbus.s"
+	@echo "... src/ConfigGenerator_Mappings.o"
+	@echo "... src/ConfigGenerator_Mappings.i"
+	@echo "... src/ConfigGenerator_Mappings.s"
+	@echo "... src/ConfigGenerator_Utils.o"
+	@echo "... src/ConfigGenerator_Utils.i"
+	@echo "... src/ConfigGenerator_Utils.s"
 	@echo "... src/ConfigSearch.o"
 	@echo "... src/ConfigSearch.i"
 	@echo "... src/ConfigSearch.s"
 	@echo "... src/ConfigValidator.o"
 	@echo "... src/ConfigValidator.i"
 	@echo "... src/ConfigValidator.s"
+	@echo "... src/DbusIntrospector.o"
+	@echo "... src/DbusIntrospector.i"
+	@echo "... src/DbusIntrospector.s"
 	@echo "... src/DbusManager.o"
 	@echo "... src/DbusManager.i"
 	@echo "... src/DbusManager.s"
+	@echo "... src/InteractiveSelector.o"
+	@echo "... src/InteractiveSelector.i"
+	@echo "... src/InteractiveSelector.s"
 	@echo "... src/MqttManager.o"
 	@echo "... src/MqttManager.i"
 	@echo "... src/MqttManager.s"

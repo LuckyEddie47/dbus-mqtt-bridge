@@ -5,11 +5,18 @@
 
 #include <string>
 
+enum class CLIMode {
+    RUN_BRIDGE,
+    GENERATE_CONFIG,
+    HELP,
+    VERSION,
+    ERROR
+};
+
 class CLI {
 public:
-    // Parse arguments and handle --help, --version flags
-    // Returns: 0 = continue execution, 1 = exit success, -1 = exit error
-    static int parseArguments(int argc, char** argv);
+    // Parse arguments and return mode
+    static CLIMode parseArguments(int argc, char** argv);
     
     // Show help message
     static void showHelp(const std::string& program_name);

@@ -16,6 +16,7 @@ find_package(eclipse-paho-mqtt-c REQUIRED)
 find_package(PahoMqttCpp REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(nlohmann_json 3.0 REQUIRED)
+find_package(Curses REQUIRED)
 
 pkg_check_modules(SDBUS_CPP REQUIRED IMPORTED_TARGET sdbus-c++)
 
@@ -29,6 +30,12 @@ add_executable(dbus-mqtt-bridge
     src/Config.cpp
     src/ConfigValidator.cpp
     src/ConfigSearch.cpp
+    src/ConfigGenerator.cpp
+    src/ConfigGenerator_Mappings.cpp
+    src/ConfigGenerator_Dbus.cpp
+    src/ConfigGenerator_Utils.cpp
+    src/InteractiveSelector.cpp
+    src/DbusIntrospector.cpp
     src/CLI.cpp
     src/Bridge.cpp
     src/DbusManager.cpp
@@ -42,6 +49,7 @@ target_link_libraries(dbus-mqtt-bridge
     paho-mqtt3as
     yaml-cpp
     nlohmann_json::nlohmann_json
+    ${CURSES_LIBRARIES}
 )
 
 # Install targets
