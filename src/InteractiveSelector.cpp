@@ -163,20 +163,17 @@ std::optional<std::string> InteractiveSelector::promptText(
     const std::string& default_value
 ) {
     if (!default_value.empty()) {
-        std::cout << question << " [" << default_value << "] (Backspace to go back): ";
+        std::cout << question << " [" << default_value << "] (.. to go back): ";
     } else {
-        std::cout << question << " (Backspace to go back): ";
+        std::cout << question << " (.. to go back): ";
     }
     
     std::string input;
     std::getline(std::cin, input);
     
-    // Check if user wants to go back (empty input and then check if it was backspace)
-    // We'll use a special marker: if input is exactly "<<BACK>>" 
-    // But since getline doesn't detect backspace on empty, we need a different approach
-    // Let them type "back" or press Ctrl+C will be caught elsewhere
+    // Check if user wants to go back if input is exactly ".." 
     
-    if (input == "back" || input == "BACK") {
+    if (input == "..") {
         return std::nullopt;
     }
     
