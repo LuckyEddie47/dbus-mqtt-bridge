@@ -23,7 +23,7 @@ public:
     static bool promptYesNo(const std::string& question, bool default_yes = true);
     
     // Show text input with optional default
-    // Returns nullopt if user pressed backspace to go back
+    // Returns nullopt if user passed .. to go back
     static std::optional<std::string> promptText(
         const std::string& question,
         const std::string& default_value = ""
